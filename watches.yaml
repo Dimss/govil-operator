@@ -11,7 +11,7 @@
 - version: v1alpha1
   group: gov.il
   kind: Poc12Dep
-  playbook: /opt/ansible/poc12.yml
+  playbook: /opt/ansible/poc12dep.yml
 
 - version: v1alpha1
   group: gov.il

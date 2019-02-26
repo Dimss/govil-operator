@@ -26,7 +26,7 @@
   debug:
     msg: "{{rabbitmq_dep.resources[0].metadata.name}}"
 
-- name: Create POC1 Consumer Service
+- name: Create POC2 Consumer Service
   k8s:
     state: present
     definition: "{{ lookup('template', 'templates/app/deployment.yml') }}"

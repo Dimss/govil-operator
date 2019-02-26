@@ -1,21 +1,15 @@
-apiVersion: gov.il/v1alpha1
 kind: Poc12Dep
+apiVersion: gov.il/v1alpha1
 metadata:
   name: govil-coreapitest-9ca9818
 spec:
-  size: 1
-  appName: govil-coreapitest-9ca9818
-  image: "docker.io/dimssss/coreapitest:9ca9818-1"
-  containerPort: 8080
+metadata:
+  name: poc12-rabbitmq-dev
+spec:
+  depOwner: poc12
   profile: dev
   namespace: govil
-  resources:
-    mongo:
-      dbhost: mongo-govil-coreapitest-9ca9818
-      dbuser: app
-      dbpass: app
-      dbname: coreapitestdb
-      dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.6"
-  deploymentStrategy:
-    type: gb
-    weight: 50
+  service: poc12-rabbitmq-dev
+  image: docker.io/rabbitmq:3-management
+  routeHostSuffix: router.default.svc.cluster.local
+  queueName: sites

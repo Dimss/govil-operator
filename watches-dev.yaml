@@ -11,7 +11,7 @@
 - version: v1alpha1
   group: gov.il
   kind: Poc12Dep
-  playbook: /Users/dima/code/govil/govil-operator/poc12.yml
+  playbook: /Users/dima/code/govil/govil-operator/poc12dep.yml
 
 - version: v1alpha1
   group: gov.il
