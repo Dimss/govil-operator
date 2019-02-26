@@ -1,0 +1,15 @@
+# Rabbitmq objects
+- name: Create RabbitMQ Service
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/rabbitmq/service.yml') }}"
+
+- name: Create RabbitMQ Route
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/rabbitmq/route.yml') }}"
+
+- name: Create RabbitMQ Deployment
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/rabbitmq/deployment.yml') }}"

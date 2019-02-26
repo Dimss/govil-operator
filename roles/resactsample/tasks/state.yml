@@ -1,0 +1,18 @@
+- name: Search for all CoreApiTest deployments
+  k8s_facts:
+    kind: CoreApiTest
+    api_version: gov.il/v1alpha1
+    namespace: govil
+    label_selectors:
+      - govilAppRole = coreapitest
+  register: govil_deployments
+
+- debug:
+    msg: "{{govil_deployments}}"
+
+- name: Set CoreApiTest deployments count
+  set_fact:
+    govil_deploymnets_count: "{{ govil_deployments.resources | length}}"
+
+- debug:
+    msg: "{{govil_deploymnets_count}}"

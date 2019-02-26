@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: "{{app_name}}"
+  namespace: "{{namespace}}"
+spec:
+  host: "{{route_name}}.router.default.svc.cluster.local"
+  to:
+    kind: Service
+    name: "{{app_name}}"

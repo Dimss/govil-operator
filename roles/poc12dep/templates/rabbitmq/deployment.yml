@@ -1,0 +1,30 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: "{{service}}"
+  namespace: "{{namespace}}"
+  labels:
+    app: "{{service}}"
+    depOwner: "{{dep_owner}}"
+    profile: "{{profile}}"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "{{service}}"
+  template:
+    metadata:
+      labels:
+        app: "{{service}}"
+        depOwner: "{{dep_owner}}"
+    spec:
+      containers:
+      - name: "rabbitmq"
+        image: "{{image}}"
+        ports:
+        - containerPort: 5672
+        readinessProbe:
+          tcpSocket:
+            port: 5672
+          initialDelaySeconds: 0
+          periodSeconds: 3

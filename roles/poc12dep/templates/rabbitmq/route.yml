@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: "{{service}}"
+  namespace: "{{namespace}}"
+  labels:
+    depOwner: "{{dep_owner}}"
+    profile: "{{profile}}"
+spec:
+  host: "{{service}}.{{route_host_suffix}}"
+  to:
+    kind: Service
+    name: "{{service}}"
+  port:
+    targetPort: 15672

@@ -1,0 +1,20 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: poc2consumers.gov.il
+spec:
+  group: gov.il
+  names:
+    kind: Poc2Consumer
+    listKind: Poc2ConsumerList
+    plural: poc2consumers
+    singular: poc2consumer
+  scope: Namespaced
+  version: v1alpha1
+  subresources:
+    status: {}
+  version: v1alpha1
+  versions:
+  - name: v1alpha1
+    served: true
+    storage: true

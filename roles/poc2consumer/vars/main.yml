@@ -1,0 +1,4 @@
+max_govil_deployments: 2
+timestamp_list: []
+timestamp_sorted_list: []
+govil_deployment_selector: govAppRole

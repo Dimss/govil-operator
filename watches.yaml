@@ -1,5 +1,24 @@
----
 - version: v1alpha1
   group: gov.il
   kind: CoreApiTest
   playbook: /opt/ansible/coreapitest.yml
+
+- version: v1alpha1
+  group: gov.il
+  kind: ReactSample
+  playbook: /opt/ansible/reactsample.yml
+
+- version: v1alpha1
+  group: gov.il
+  kind: Poc12Dep
+  playbook: /opt/ansible/poc12.yml
+
+- version: v1alpha1
+  group: gov.il
+  kind: Poc1Producer
+  playbook: /opt/ansible/poc1producer.yml
+
+- version: v1alpha1
+  group: gov.il
+  kind: Poc2Consumer
+  playbook: /opt/ansible/poc2consumer.yml

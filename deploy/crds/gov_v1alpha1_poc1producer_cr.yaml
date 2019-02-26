@@ -1,0 +1,13 @@
+apiVersion: gov.il/v1alpha1
+kind: Poc1Producer
+metadata:
+  name: govil-poc1producer-9be9dcd
+  labels:
+    profile: dev
+spec:
+  size: 1
+  depOwner: poc12
+  appName: govil-poc1producer-9be9dcd
+  image: "docker.io/dimssss/poc1-producer:26973db-25"
+  profile: dev
+  namespace: govil

@@ -1,0 +1,13 @@
+apiVersion: gov.il/v1alpha1
+kind: Poc2Consumer
+metadata:
+  name: govil-poc2consumer-182f7cc-1
+  labels:
+    profile: dev
+spec:
+  size: 1
+  depOwner: poc12
+  appName: govil-poc2consumer-182f7cc-1
+  image: "docker.io/dimssss/poc2-consumer:182f7cc-1"
+  profile: dev
+  namespace: govil

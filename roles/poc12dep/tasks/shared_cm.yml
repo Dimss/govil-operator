@@ -1,0 +1,5 @@
+# Shared ConfigMap beween Consumer and Producer POC1/2 application
+- name: Creating POC12 Consuemr and Producer shared ConfigMap
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/shared_cm/cm.yml') }}"

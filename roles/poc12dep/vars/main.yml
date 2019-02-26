@@ -1,0 +1,22 @@
+poc12:
+  dev:
+    configmap_name: rabbitmq-dev
+    queue_name: "sites"
+    rabbitmq:
+      service: rabbitmq-poc12-dev
+      image: docker.io/rabbitmq:3-management
+      routeHost: poc12-rabbitmq-dev.router.default.svc.cluster.local
+  lab:
+    configmap_name: rabbitmq-lab
+    queue_name: "sites"
+    rabbitmq:
+      service: rabbitmq-poc12-lab
+      image: docker.io/rabbitmq:3-management
+      routeHost: poc12-rabbitmq-lab.router.default.svc.cluster.local
+  prod:
+    configmap_name: rabbitmq-prod
+    queue_name: "sites"
+    rabbitmq:
+      service: rabbitmq-poc12-prod
+      image: docker.io/rabbitmq:3-management
+      routeHost: poc12-rabbitmq-prod.router.default.svc.cluster.local

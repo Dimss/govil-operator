@@ -1,0 +1,16 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: "{{service}}"
+  namespace: "{{namespace}}"
+  labels:
+    depOwner: "{{dep_owner}}"
+    profile: "{{profile}}"
+spec:
+  selector:
+    app: "{{service}}"
+  ports:
+  - name: rabbitmq
+    port: 5672
+  - name: management
+    port: 15672
