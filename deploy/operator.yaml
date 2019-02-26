@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: govil-operator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: govil-operator
+  template:
+    metadata:
+      labels:
+        name: govil-operator
+    spec:
+      serviceAccountName: govil-operator
+      containers:
+        - name: govil-operator
+          # Replace this with the built image name
+          image: "{{ REPLACE_IMAGE }}"
+          imagePullPolicy: "{{ pull_policy|default('Always') }}"
+          env:
+            - name: WATCH_NAMESPACE
+              value: ""
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: OPERATOR_NAME
+              value: "govil-operator"

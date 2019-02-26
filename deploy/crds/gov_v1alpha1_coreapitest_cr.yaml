@@ -1,0 +1,7 @@
+apiVersion: gov.il/v1alpha1
+kind: CoreApiTest
+metadata:
+  name: example-coreapitest
+spec:
+  # Add fields here
+  size: 3
