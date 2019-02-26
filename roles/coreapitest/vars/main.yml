@@ -1,2 +1,3 @@
----
-# vars file for coreapitest
+max_coreapitest_deployments: 2
+timestamp_list: []
+timestamp_sorted_list: []

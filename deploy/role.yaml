@@ -40,6 +40,7 @@ rules:
   - create
 - apiGroups:
   - gov.il
+  - route.openshift.io
   resources:
   - '*'
   verbs:

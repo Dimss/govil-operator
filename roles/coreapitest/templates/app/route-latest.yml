@@ -1,0 +1,10 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: "coreapitest-latest"
+  namespace: "{{namespace}}"
+spec:
+  host: "coreapitest-dev-latest.router.default.svc.cluster.local"
+  to:
+    kind: Service
+    name: "{{app_name}}"

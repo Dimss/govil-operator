@@ -1,2 +1,6 @@
----
-# tasks file for coreapitest
+# - include_tasks: state.yml
+#
+# - include_tasks: rotate.yml
+#   when: coreapitest_deploymnets_count|int > max_coreapitest_deployments
+
+- include_tasks: install.yml

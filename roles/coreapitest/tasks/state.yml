@@ -1,0 +1,30 @@
+- name: Search for all CoreApiTest deployments
+  k8s_facts:
+    kind: CoreApiTest
+    api_version: gov.il/v1alpha1
+    namespace: govil
+  register: coreapitest_deployments
+
+- name: Search for latest CoreApiTest Route
+  k8s_facts:
+    kind: Route
+    api_version: route.openshift.io/v1
+    namespace: "{{namespace}}"
+    name: "coreapitest-latest"
+  register: coreapitest_latest_route
+
+- name: Set CoreApiTest deployments count
+  set_fact:
+    coreapitest_deploymnets_count: "{{ coreapitest_deployments.resources | length}}"
+
+- name: Set CoreApiTest latest routes count
+  set_fact:
+    coreapitest_latest_route_count: "{{coreapitest_latest_route.resources | length}}"
+
+- name: Print CoreApiTest deployments count
+  debug:
+    msg: "{{coreapitest_deploymnets_count}}"
+
+- name: Print CoreApiTest latest routes count  count
+  debug:
+    msg: "{{coreapitest_latest_route_count}}"

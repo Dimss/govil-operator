@@ -1,0 +1,6 @@
+---
+- version: v1alpha1
+  group: gov.il
+  kind: CoreApiTest
+  # role: /Users/dima/code/govil/govil-operator/roles/coreapitest
+  playbook: /Users/dima/code/govil/govil-operator/coreapitest.yml

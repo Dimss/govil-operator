@@ -15,9 +15,7 @@ spec:
       serviceAccountName: govil-operator
       containers:
         - name: govil-operator
-          # Replace this with the built image name
-          image: "{{ REPLACE_IMAGE }}"
-          imagePullPolicy: "{{ pull_policy|default('Always') }}"
+          image: "docker.io/dimssss/govil-operator:0.6"
           env:
             - name: WATCH_NAMESPACE
               value: ""

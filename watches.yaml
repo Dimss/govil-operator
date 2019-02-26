@@ -2,4 +2,4 @@
 - version: v1alpha1
   group: gov.il
   kind: CoreApiTest
-  role: /opt/ansible/roles/coreapitest
+  playbook: /opt/ansible/coreapitest.yml
