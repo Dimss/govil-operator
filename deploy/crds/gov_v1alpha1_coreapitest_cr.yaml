@@ -1,26 +1,26 @@
-# apiVersion: gov.il/v1alpha1
-# kind: CoreApiTest
-# metadata:
-#   name: govil-coreapitest-9ca9818
-# spec:
-#   size: 1
-#   appName: govil-coreapitest-9ca9818
-#   image: "docker.io/dimssss/coreapitest:9ca9818-1"
-#   containerPort: 8080
-#   profile: dev
-#   namespace: govil
-#   latestRouteHost: coreapitest-dev-latest.router.default.svc.cluster.local
-#   latestRouteName: coreapitest-latest-dev
-#   resources:
-#     mongo:
-#       dbhost: mongo-govil-coreapitest-9ca9818
-#       dbuser: app
-#       dbpass: app
-#       dbname: coreapitestdb
-#       dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.6"
-#   deploymentStrategy:
-#     type: gb
-#     weight: 50
+apiVersion: gov.il/v1alpha1
+kind: CoreApiTest
+metadata:
+  name: govil-coreapitest-9ca9818
+spec:
+  size: 1
+  appName: govil-coreapitest-9ca9818
+  image: "docker.io/dimssss/coreapitest:9ca9818-1"
+  containerPort: 8080
+  profile: dev
+  namespace: govil
+  latestRouteHost: coreapitest-dev-latest.router.default.svc.cluster.local
+  latestRouteName: coreapitest-latest-dev
+  resources:
+    mongo:
+      dbhost: mongo-govil-coreapitest-9ca9818
+      dbuser: app
+      dbpass: app
+      dbname: coreapitestdb
+      dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.6"
+  deploymentStrategy:
+    type: gb
+    weight: 50
 # ---
 # apiVersion: gov.il/v1alpha1
 # kind: CoreApiTest
@@ -68,7 +68,7 @@
 #   deploymentStrategy:
 #     type: gb
 #     weight: 50
-
+# ---
 # apiVersion: gov.il/v1alpha1
 # kind: CoreApiTest
 # metadata:
@@ -92,27 +92,27 @@
 #   deploymentStrategy:
 #     type: gb
 #     weight: 50
-
-apiVersion: gov.il/v1alpha1
-kind: CoreApiTest
-metadata:
-  name: govil-coreapitest-9ca9844
-spec:
-  size: 1
-  appName: govil-coreapitest-9ca9844
-  image: "docker.io/dimssss/coreapitest:9ca9818-1"
-  containerPort: 8080
-  profile: dev
-  namespace: govil
-  latestRouteHost: coreapitest-dev-latest.router.default.svc.cluster.local
-  latestRouteName: coreapitest-latest-dev
-  resources:
-    mongo:
-      dbhost: mongo-govil-coreapitest-9ca9844
-      dbuser: app
-      dbpass: app
-      dbname: coreapitestdb
-      dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.6"
-  deploymentStrategy:
-    type: gb
-    weight: 50
+# ---
+# apiVersion: gov.il/v1alpha1
+# kind: CoreApiTest
+# metadata:
+#   name: govil-coreapitest-9ca9844
+# spec:
+#   size: 1
+#   appName: govil-coreapitest-9ca9844
+#   image: "docker.io/dimssss/coreapitest:9ca9818-1"
+#   containerPort: 8080
+#   profile: dev
+#   namespace: govil
+#   latestRouteHost: coreapitest-dev-latest.router.default.svc.cluster.local
+#   latestRouteName: coreapitest-latest-dev
+#   resources:
+#     mongo:
+#       dbhost: mongo-govil-coreapitest-9ca9844
+#       dbuser: app
+#       dbpass: app
+#       dbname: coreapitestdb
+#       dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.6"
+#   deploymentStrategy:
+#     type: gb
+#     weight: 50
