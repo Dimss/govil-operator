@@ -1,41 +1,45 @@
-# # Mongodb objects
-# - name: Create Ehpemeral MongoDB Service
-#   k8s:
-#     state: present
-#     definition: "{{ lookup('template', 'templates/mongodb/ephemeral/service.yml') }}"
-#
-# - name: Create Ehpemeral MongoDB Deployment
-#   k8s:
-#     state: present
-#     definition: "{{ lookup('template', 'templates/mongodb/ephemeral/deployment.yml') }}"
-#
-# # Application objects
-# - name: Create CoreApiTest Sercet
-#   k8s:
-#     state: present
-#     definition: "{{ lookup('template', 'templates/app/secret.yml') }}"
+# Mongodb objects
+- name: Create Ehpemeral MongoDB Service
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/mongodb/ephemeral/service.yml') }}"
+
+- name: Create Ehpemeral MongoDB Deployment
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/mongodb/ephemeral/deployment.yml') }}"
+
+# Application objects
+- name: Create CoreApiTest Sercet
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/app/secret.yml') }}"
 
 - name: Create CoreApiTest Service
   k8s:
     state: present
     definition: "{{ lookup('template', 'templates/app/service.yml') }}"
 
-# - name: Create CoreApiTest Route
-#   k8s:
-#     state: present
-#     definition: "{{ lookup('template', 'templates/app/route.yml') }}"
-#
-# - name: Delete latest CoreApiTest Route
-#   k8s:
-#     state: absent
-#     definition: "{{ lookup('template', 'templates/app/route-latest.yml') }}"
-#
+- name: Create CoreApiTest Route
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/app/route.yml') }}"
+
+- name: Delete latest CoreApiTest Route
+  k8s:
+    state: absent
+    definition: "{{ lookup('template', 'templates/app/route-latest.yml') }}"
+  when:
+    - newest_deployment.metadata.name != route_destination_service
+
 - name: Create Latest CoreApiTest Route
   k8s:
     state: present
     definition: "{{ lookup('template', 'templates/app/route-latest.yml') }}"
+  when:
+    - newest_deployment.metadata.name != route_destination_service
 
-# - name: Create CoreApiTest Deployment
-#   k8s:
-#     state: present
-#     definition: "{{ lookup('template', 'templates/app/deployment.yml') }}"
+- name: Create CoreApiTest Deployment
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/app/deployment.yml') }}"

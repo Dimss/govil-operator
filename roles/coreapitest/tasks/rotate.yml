@@ -1,29 +1,12 @@
-- name: Define timestamps list
-  set_fact:
-    timestamp_list: []
-
-- name: Construct GovIL Deployment timestamp list
-  set_fact:
-    timestamp_list: "{{ timestamp_list }} + [ '{{item.metadata.creationTimestamp}}' ]"
-  loop: "{{coreapitest_deployments.resources}}"
-
-- name: Sort timestamps list
-  set_fact:
-    timestamp_sorted_list: "{{timestamp_list | sort }}"
-
-- name: Print sorted deployment list
-  debug:
-    msg: "{{item}}"
-  loop: "{{timestamp_sorted_list}}"
-
 - name: Find the deployment for deletion
   set_fact:
     deployment_name_for_deletion: "{{item}}"
   loop: "{{coreapitest_deployments.resources}}"
   when:
-  - item.metadata.creationTimestamp == "{{timestamp_sorted_list[0]}}"
+  - item.metadata.creationTimestamp == timestamp_sorted_list[0]
 
-- debug:
+- name: Print CoreApiTest name for deletion
+  debug:
     msg: "{{deployment_name_for_deletion.metadata.name}}"
 
 - name: Remove GovilDeployment

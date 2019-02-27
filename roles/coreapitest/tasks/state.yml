@@ -1,30 +1,54 @@
-- name: Search for all CoreApiTest deployments
-  k8s_facts:
-    kind: CoreApiTest
-    api_version: gov.il/v1alpha1
-    namespace: govil
-  register: coreapitest_deployments
-
-- name: Search for latest CoreApiTest Route
+# Latest Route state setup
+- name: Search for CoreApiTests latest route
   k8s_facts:
     kind: Route
     api_version: route.openshift.io/v1
     namespace: "{{namespace}}"
-    name: "coreapitest-latest"
-  register: coreapitest_latest_route
+    name: "{{latest_route_name}}"
+  register: latest_route
 
-- name: Set CoreApiTest deployments count
+- name: Set latest Route destination Service
+  set_fact:
+    route_destination_service: "{{latest_route.resources[0].spec.to.name}}"
+  when: latest_route.resources | length > 0
+
+# Latest CoreApiTest state setup
+- name: Search for all CoreApiTests
+  k8s_facts:
+    kind: CoreApiTest
+    api_version: gov.il/v1alpha1
+    namespace: "{{namespace}}"
+  register: coreapitest_deployments
+
+- name: Set CoreApiTest count
   set_fact:
     coreapitest_deploymnets_count: "{{ coreapitest_deployments.resources | length}}"
 
-- name: Set CoreApiTest latest routes count
+- name: Construct CoreApiTest timestamp list
   set_fact:
-    coreapitest_latest_route_count: "{{coreapitest_latest_route.resources | length}}"
+    timestamp_list: "{{ timestamp_list }} + [ '{{item.metadata.creationTimestamp}}' ]"
+  loop: "{{coreapitest_deployments.resources}}"
 
-- name: Print CoreApiTest deployments count
+- name: Sort timestamps list
+  set_fact:
+    timestamp_sorted_list: "{{timestamp_list | sort }}"
+
+- name: Find the newest CoreApiTest for latest Route
+  set_fact:
+    newest_deployment: "{{item}}"
+  loop: "{{coreapitest_deployments.resources}}"
+  when:
+  - item.metadata.creationTimestamp == timestamp_sorted_list[timestamp_sorted_list | length - 1]
+
+# Debug prints
+- name: Print CoreApiTest counts
   debug:
     msg: "{{coreapitest_deploymnets_count}}"
 
-- name: Print CoreApiTest latest routes count  count
+- name: Print newest CoreApiTest
   debug:
-    msg: "{{coreapitest_latest_route_count}}"
+    msg: "{{newest_deployment.metadata.name}}"
+
+- name: Print latest Route destination Service
+  debug:
+    msg: "{{route_destination_service}}"

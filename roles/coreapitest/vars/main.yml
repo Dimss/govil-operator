@@ -1,3 +1,5 @@
 max_coreapitest_deployments: 2
+newest_deployment_name: ""
+route_destination_service: ""
 timestamp_list: []
 timestamp_sorted_list: []
