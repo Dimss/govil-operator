@@ -1,35 +1,23 @@
-- name: Define timestamps list
-  set_fact:
-    timestamp_list: []
-
-- name: Construct GovIL Deployment timestamp list
+- name: Construct ReactSample timestamp list
   set_fact:
     timestamp_list: "{{ timestamp_list }} + [ '{{item.metadata.creationTimestamp}}' ]"
-  loop: "{{govil_deployments.resources}}"
+  loop: "{{reactsample_deployment.resources}}"
 
 - name: Sort timestamps list
   set_fact:
     timestamp_sorted_list: "{{timestamp_list | sort }}"
 
-- name: Print sorted deployment list
-  debug:
-    msg: "{{item}}"
-  loop: "{{timestamp_sorted_list}}"
-
-- name: Find the deployment for deletion
+- name: Find the oldest ReactSample
   set_fact:
-    deployment_name_for_deletion: "{{item}}"
-  loop: "{{govil_deployments.resources}}"
+    oldest_reactsample: "{{item}}"
+  loop: "{{reactsample_deployment.resources}}"
   when:
-  - item.metadata.creationTimestamp == "{{timestamp_sorted_list[0]}}"
+  - item.metadata.creationTimestamp == timestamp_sorted_list[0]
 
-- debug:
-    msg: "{{deployment_name_for_deletion.metadata.name}}"
-
-- name: Remove GovilDeployment
+- name: Remove oldest ReactSample instace
   k8s:
     state: absent
+    kind: ReactSample
     api_version: gov.il/v1alpha1
-    kind: CoreApiTest
     namespace: "{{namespace}}"
-    name: "{{deployment_name_for_deletion.metadata.name}}"
+    name: "{{oldest_reactsample.metadata.name}}"

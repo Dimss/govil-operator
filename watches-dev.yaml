@@ -1,24 +1,24 @@
-- version: v1alpha1
-  group: gov.il
-  kind: CoreApiTest
-  playbook: /Users/dima/code/govil/govil-operator/coreapitest.yml
+# - version: v1alpha1
+#   group: gov.il
+#   kind: CoreApiTest
+#   playbook: /Users/dima/code/govil/govil-operator/coreapitest.yml
 
 - version: v1alpha1
   group: gov.il
   kind: ReactSample
   playbook: /Users/dima/code/govil/govil-operator/reactsample.yml
 
-- version: v1alpha1
-  group: gov.il
-  kind: Poc12Dep
-  playbook: /Users/dima/code/govil/govil-operator/poc12dep.yml
-
-- version: v1alpha1
-  group: gov.il
-  kind: Poc1Producer
-  playbook: /Users/dima/code/govil/govil-operator/poc1producer.yml
-
-- version: v1alpha1
-  group: gov.il
-  kind: Poc2Consumer
-  playbook: /Users/dima/code/govil/govil-operator/poc2consumer.yml
+# - version: v1alpha1
+#   group: gov.il
+#   kind: Poc12Dep
+#   playbook: /Users/dima/code/govil/govil-operator/poc12dep.yml
+#
+# - version: v1alpha1
+#   group: gov.il
+#   kind: Poc1Producer
+#   playbook: /Users/dima/code/govil/govil-operator/poc1producer.yml
+#
+# - version: v1alpha1
+#   group: gov.il
+#   kind: Poc2Consumer
+#   playbook: /Users/dima/code/govil/govil-operator/poc2consumer.yml

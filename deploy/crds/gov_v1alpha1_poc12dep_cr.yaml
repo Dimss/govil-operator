@@ -1,9 +1,6 @@
 kind: Poc12Dep
 apiVersion: gov.il/v1alpha1
 metadata:
-  name: govil-coreapitest-9ca9818
-spec:
-metadata:
   name: poc12-rabbitmq-dev
 spec:
   depOwner: poc12

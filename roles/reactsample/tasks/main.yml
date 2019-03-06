@@ -1,6 +1,6 @@
-# - include_tasks: state.yml
-#
-# - include_tasks: rotate.yml
-#   when: govil_deploymnets_count|int > max_govil_deployments
+- include_tasks: state.yml
+
+- include_tasks: rotate.yml
+  when: reactsample_deployment.resources | length > 1
 
 - include_tasks: install.yml

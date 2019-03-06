@@ -1,16 +1,15 @@
-
 # Application objects
-- name: Create CoreApiTest Service
+- name: Create ReactSample Service
   k8s:
     state: present
     definition: "{{ lookup('template', 'templates/app/service.yml') }}"
 
-- name: Create CoreApiTest Route
+- name: Create ReactSample Route
   k8s:
     state: present
     definition: "{{ lookup('template', 'templates/app/route.yml') }}"
 
-- name: Create CoreApiTest Deployment
+- name: Create ReactSample Deployment
   k8s:
     state: present
     definition: "{{ lookup('template', 'templates/app/deployment.yml') }}"

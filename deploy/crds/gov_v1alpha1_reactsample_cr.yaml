@@ -1,15 +1,33 @@
 apiVersion: gov.il/v1alpha1
 kind: ReactSample
 metadata:
-  name: govil-reactsample-f8e9eda
+  name: govil-react-sample-040777f
 spec:
-  size: 1
-  appName: govil-reactsample-f8e9eda
-  routeName: reactsample-dev
-  image: "docker.io/dimssss/react-sample:f8e9eda-1"
-  containerPort: 8080
-  profile: dev
-  namespace: govil
+  appName: govil-react-sample-040777f
+  containerPort: "8080"
   deploymentStrategy:
     type: gb
     weight: 50
+  image: docker.io/dimssss/react-sample:040777f-8
+  namespace: govil
+  profile: dev
+  routeName: reactsample-dev
+  size: "1"
+---
+# kind: ReactSample
+# apiVersion: gov.il/v1alpha1
+# metadata:
+#   name: govil-react-sample-eb99362
+#   labels:
+#     template: ReactSample
+# spec:
+#   image: docker.io/dimssss/react-sample:eb99362-7
+#   size: '1'
+#   appName: govil-react-sample-eb99362
+#   profile: dev
+#   namespace: govil
+#   containerPort: '8080'
+#   deploymentStrategy:
+#     type: gb
+#     weight: 50
+#   routeName: reactsample-dev

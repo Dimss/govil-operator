@@ -5,9 +5,9 @@ metadata:
   labels:
     profile: dev
 spec:
-  size: 1
-  depOwner: poc12
   appName: govil-poc1producer-9be9dcd
-  image: "docker.io/dimssss/poc1-producer:26973db-25"
+  size: 1
   profile: dev
   namespace: govil
+  depOwner: poc12
+  image: "docker.io/dimssss/poc1-producer:26973db-25"
