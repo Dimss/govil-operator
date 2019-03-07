@@ -47,16 +47,6 @@
       when:
       - item.metadata.creationTimestamp == timestamp_sorted_list[timestamp_sorted_list | length - 1]
 
-# MongoDB for Lab env setup
-- name: Search for CoreApiTest MongoDB (Lab)
-  k8s_facts:
-    kind: DeploymentConfig
-    api_version: apps.openshift.io/v1
-    namespace: "{{namespace}}"
-    label_selectors:
-      - profile = lab
-  register: mongodb_lab
-
 # Debug prints
 - name: Debug prints
   block:

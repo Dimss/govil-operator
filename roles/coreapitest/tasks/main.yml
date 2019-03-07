@@ -1,8 +1,8 @@
+- name: CoreApiTest depndencies deployment
+  include_tasks: dep.yml
+
 - name: Set state
   include_tasks: state.yml
-
-- name: MongoDB setup
-  include_tasks: mongo.yml
 
 - name: Rotate DEV deployments
   include_tasks: rotate.yml

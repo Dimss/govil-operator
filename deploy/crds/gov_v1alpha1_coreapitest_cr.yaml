@@ -2,19 +2,20 @@ apiVersion: gov.il/v1alpha1
 kind: CoreApiTest
 metadata:
   name: govil-coreapitest-9ca9818
-  profile: lab
+  labels:
+    profile: dev
 spec:
   size: 1
   appName: govil-coreapitest-9ca9818
   image: "docker.io/dimssss/coreapitest:9ca9818-1"
   containerPort: 8080
-  profile: lab
+  profile: dev
   namespace: govil
   latestRouteHost: coreapitest-lab-latest.router.default.svc.cluster.local
   latestRouteName: coreapitest-latest-lab
   resources:
     mongo:
-      dbhost: mongo-govil-coreapitest-lab
+      dbhost: mongo-govil-coreapitest-9ca9818
       dbuser: app
       dbpass: app
       dbname: coreapitestdb

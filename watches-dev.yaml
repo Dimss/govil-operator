@@ -2,7 +2,11 @@
   group: gov.il
   kind: CoreApiTest
   playbook: /Users/dima/code/govil/govil-operator/coreapitest.yml
-  manageStatus: false
+
+- version: v1alpha1
+  group: gov.il
+  kind: CoreApiTestDep
+  playbook: /Users/dima/code/govil/govil-operator/coreapitestdep.yml
 
 # - version: v1alpha1
 #   group: gov.il

@@ -5,6 +5,11 @@
 
 - version: v1alpha1
   group: gov.il
+  kind: CoreApiTestDep
+  playbook: /opt/ansible/coreapitest.yml
+
+- version: v1alpha1
+  group: gov.il
   kind: ReactSample
   playbook: /opt/ansible/reactsample.yml
 

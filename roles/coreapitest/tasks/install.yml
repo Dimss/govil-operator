@@ -1,30 +1,25 @@
 # Application objects
-- name: Create CoreApiTest Sercet
-  k8s:
-    state: present
-    definition: "{{ lookup('template', 'templates/app/secret.yml') }}"
-
 - name: Create CoreApiTest Service
   k8s:
     state: present
-    definition: "{{ lookup('template', 'templates/app/service.yml') }}"
+    definition: "{{ lookup('template', 'templates/service.yml') }}"
 
 - name: Create CoreApiTest Route
   k8s:
     state: present
-    definition: "{{ lookup('template', 'templates/app/route.yml') }}"
+    definition: "{{ lookup('template', 'templates/route.yml') }}"
 
 - name: Handle latest route for LAB deployments
   block:
     - name: Delete latest CoreApiTest Route
       k8s:
         state: absent
-        definition: "{{ lookup('template', 'templates/app/route-latest.yml') }}"
+        definition: "{{ lookup('template', 'templates/route-latest.yml') }}"
 
     - name: Create Latest CoreApiTest Route
       k8s:
         state: present
-        definition: "{{ lookup('template', 'templates/app/route-latest.yml') }}"
+        definition: "{{ lookup('template', 'templates/route-latest.yml') }}"
   when:
     - profile == "dev"
     - newest_deployment.metadata.name != route_destination_service
@@ -32,4 +27,4 @@
 - name: Create CoreApiTest Deployment
   k8s:
     state: present
-    definition: "{{ lookup('template', 'templates/app/deployment.yml') }}"
+    definition: "{{ lookup('template', 'templates/deployment.yml') }}"
