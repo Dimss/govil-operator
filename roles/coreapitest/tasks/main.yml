@@ -1,6 +1,20 @@
-- include_tasks: state.yml
+- name: Set state
+  include_tasks: state.yml
 
-- include_tasks: rotate.yml
-  when: coreapitest_deploymnets_count|int > max_coreapitest_deployments
+- name: MongoDB setup
+  include_tasks: mongo.yml
 
-- include_tasks: install.yml
+- name: Rotate DEV deployments
+  include_tasks: rotate.yml
+  when:
+    - profile == "dev"
+    - coreapitest_deploymnets_count|int > max_coreapitest_dev_deployments
+
+- name: Rotate LAB deployments
+  include_tasks: rotate.yml
+  when:
+    - profile == "lab"
+    - coreapitest_deploymnets_count|int > max_coreapitest_lab_deployments
+
+- name: CoreApiTest deployment
+  include_tasks: install.yml

@@ -1,12 +1,13 @@
-# - version: v1alpha1
-#   group: gov.il
-#   kind: CoreApiTest
-#   playbook: /Users/dima/code/govil/govil-operator/coreapitest.yml
-
 - version: v1alpha1
   group: gov.il
-  kind: ReactSample
-  playbook: /Users/dima/code/govil/govil-operator/reactsample.yml
+  kind: CoreApiTest
+  playbook: /Users/dima/code/govil/govil-operator/coreapitest.yml
+  manageStatus: false
+
+# - version: v1alpha1
+#   group: gov.il
+#   kind: ReactSample
+#   playbook: /Users/dima/code/govil/govil-operator/reactsample.yml
 
 # - version: v1alpha1
 #   group: gov.il

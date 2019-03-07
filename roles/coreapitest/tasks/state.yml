@@ -1,54 +1,74 @@
-# Latest Route state setup
-- name: Search for CoreApiTests latest route
-  k8s_facts:
-    kind: Route
-    api_version: route.openshift.io/v1
-    namespace: "{{namespace}}"
-    name: "{{latest_route_name}}"
-  register: latest_route
+# Latest Route state setup - only for dev profile
+- name: Setup state for latest route
+  block:
+    - name: Search for CoreApiTests latest route
+      k8s_facts:
+        kind: Route
+        api_version: route.openshift.io/v1
+        namespace: "{{namespace}}"
+        name: "{{latest_route_name}}"
+      register: latest_route
 
-- name: Set latest Route destination Service
-  set_fact:
-    route_destination_service: "{{latest_route.resources[0].spec.to.name}}"
-  when: latest_route.resources | length > 0
+    - name: Set latest Route destination Service
+      set_fact:
+        route_destination_service: "{{latest_route.resources[0].spec.to.name}}"
+      when: latest_route.resources | length > 0
+  when: profile == "dev"
 
 # Latest CoreApiTest state setup
-- name: Search for all CoreApiTests
+- name: Latest CoreApiTest state setup
+  block:
+    - name: Search for all CoreApiTests
+      k8s_facts:
+        kind: CoreApiTest
+        api_version: gov.il/v1alpha1
+        namespace: "{{namespace}}"
+        label_selectors:
+          - profile = {{profile}}
+      register: coreapitest_deployments
+
+    - name: Set CoreApiTest count
+      set_fact:
+        coreapitest_deploymnets_count: "{{ coreapitest_deployments.resources | length}}"
+
+    - name: Construct CoreApiTest timestamp list
+      set_fact:
+        timestamp_list: "{{ timestamp_list }} + [ '{{item.metadata.creationTimestamp}}' ]"
+      loop: "{{coreapitest_deployments.resources}}"
+
+    - name: Sort timestamps list
+      set_fact:
+        timestamp_sorted_list: "{{timestamp_list | sort }}"
+
+    - name: Find the newest CoreApiTest for latest Route
+      set_fact:
+        newest_deployment: "{{item}}"
+      loop: "{{coreapitest_deployments.resources}}"
+      when:
+      - item.metadata.creationTimestamp == timestamp_sorted_list[timestamp_sorted_list | length - 1]
+
+# MongoDB for Lab env setup
+- name: Search for CoreApiTest MongoDB (Lab)
   k8s_facts:
-    kind: CoreApiTest
-    api_version: gov.il/v1alpha1
+    kind: DeploymentConfig
+    api_version: apps.openshift.io/v1
     namespace: "{{namespace}}"
-  register: coreapitest_deployments
-
-- name: Set CoreApiTest count
-  set_fact:
-    coreapitest_deploymnets_count: "{{ coreapitest_deployments.resources | length}}"
-
-- name: Construct CoreApiTest timestamp list
-  set_fact:
-    timestamp_list: "{{ timestamp_list }} + [ '{{item.metadata.creationTimestamp}}' ]"
-  loop: "{{coreapitest_deployments.resources}}"
-
-- name: Sort timestamps list
-  set_fact:
-    timestamp_sorted_list: "{{timestamp_list | sort }}"
-
-- name: Find the newest CoreApiTest for latest Route
-  set_fact:
-    newest_deployment: "{{item}}"
-  loop: "{{coreapitest_deployments.resources}}"
-  when:
-  - item.metadata.creationTimestamp == timestamp_sorted_list[timestamp_sorted_list | length - 1]
+    label_selectors:
+      - profile = lab
+  register: mongodb_lab
 
 # Debug prints
-- name: Print CoreApiTest counts
-  debug:
-    msg: "{{coreapitest_deploymnets_count}}"
+- name: Debug prints
+  block:
+    - name: Print CoreApiTest counts
+      debug:
+        msg: "{{coreapitest_deploymnets_count}}"
 
-- name: Print newest CoreApiTest
-  debug:
-    msg: "{{newest_deployment.metadata.name}}"
+    - name: Print newest CoreApiTest
+      debug:
+        msg: "{{newest_deployment.metadata.name}}"
+      when: newest_deployment
 
-- name: Print latest Route destination Service
-  debug:
-    msg: "{{route_destination_service}}"
+    - name: Print latest Route destination Service
+      debug:
+        msg: "{{route_destination_service}}"
