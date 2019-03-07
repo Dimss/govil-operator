@@ -1,0 +1,15 @@
+apiVersion: gov.il/v1alpha1
+kind: CoreApiTestDep
+metadata:
+  name: "{{app_name}}"
+  profile: "{{profile}}"
+  namespace: "{{namespace}}"
+spec:
+  appName: "{{app_name}}"
+  profile: "{{profile}}"
+  namespace: "{{namespace}}"
+  dbhost: "{{resources.mongo.dbhost}}"
+  dbuser: "{{resources.mongo.dbuser}}"
+  dbpass: "{{resources.mongo.dbpass}}"
+  dbname: "{{resources.mongo.dbname}}"
+  dbimage: "{{resources.mongo.dbimage}}"

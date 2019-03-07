@@ -1,0 +1,5 @@
+- name: MongoDB setup
+  include_tasks: mongo.yml
+
+- name: Configuration setup
+  include_tasks: conf.yml

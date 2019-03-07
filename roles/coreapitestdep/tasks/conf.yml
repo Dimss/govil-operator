@@ -1,0 +1,5 @@
+# Create conf secret
+- name: Create CoreApiTest Sercet
+  k8s:
+    state: present
+    definition: "{{ lookup('template', 'templates/conf/secret.yml') }}"

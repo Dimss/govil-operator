@@ -1,0 +1,47 @@
+# Mongodb for DEV
+- name: MongoDB Ehpemeral for DEV
+  block:
+    - name: Create Ehpemeral MongoDB Secret
+      k8s:
+        state: present
+        definition: "{{ lookup('template', 'templates/mongodb/ephemeral/secret.yml') }}"
+
+    - name: Create Ehpemeral MongoDB Service
+      k8s:
+        state: present
+        definition: "{{ lookup('template', 'templates/mongodb/ephemeral/service.yml') }}"
+
+    - name: Create Ehpemeral MongoDB DC
+      k8s:
+        state: present
+        definition: "{{ lookup('template', 'templates/mongodb/ephemeral/dc.yml') }}"
+  when: profile == "dev"
+
+# Mongodb for LAB
+- name: MongoDB Persistent for LAB
+  block:
+    - name: MongoDB LAB instance
+      debug:
+        msg: "{{mongodb_lab}}"
+
+    - name: Create MongoDB Lab Sercet
+      k8s:
+        state: present
+        definition: "{{ lookup('template', 'templates/mongodb/persistent/secret.yml') }}"
+
+    - name: Create MongoDB Lab Service
+      k8s:
+        state: present
+        definition: "{{ lookup('template', 'templates/mongodb/persistent/service.yml') }}"
+
+    - name: Create MongoDB Lab PVC
+      k8s:
+        state: present
+        definition: "{{ lookup('template', 'templates/mongodb/persistent/pvc.yml') }}"
+
+    - name: Create MongoDB Lab DC
+      k8s:
+        state: present
+        definition: "{{ lookup('template', 'templates/mongodb/persistent/dc.yml') }}"
+  when:
+    - profile == "lab"

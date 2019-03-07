@@ -1,0 +1,15 @@
+apiVersion: gov.il/v1alpha1
+kind: CoreApiTestDep
+metadata:
+  name: govil-coreapitest-9ca9818
+  labels:
+    profile: dev
+spec:
+  appName: my-app
+  profile: dev
+  namespace: govil
+  dbhost: mongo-govil-coreapitest-lab
+  dbuser: app
+  dbpass: app
+  dbname: coreapitestdb
+  dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.6"

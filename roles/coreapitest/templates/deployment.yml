@@ -1,0 +1,33 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  labels:
+    app: "{{app_name}}"
+  name: "{{app_name}}"
+  namespace: "{{namespace}}"
+spec:
+  replicas: "{{size}}"
+  selector:
+    matchLabels:
+      app: "{{app_name}}"
+  template:
+    metadata:
+      labels:
+        app: "{{app_name}}"
+    spec:
+      containers:
+      - name: "{{app_name}}"
+        image: "{{image}}"
+        env:
+        - name: ControllerSettings__DbConfig__DbConnectionString
+          valueFrom:
+            secretKeyRef:
+              name: {{app_name}}
+              key: db_conn_str
+        - name: ControllerSettings__DbConfig__DbName
+          valueFrom:
+            secretKeyRef:
+              name: {{app_name}}
+              key: db_name
+        ports:
+          - containerPort: {{container_port}}
