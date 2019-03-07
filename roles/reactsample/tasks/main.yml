@@ -1,3 +1,5 @@
+- include_tasks: validator.yml
+
 - include_tasks: state.yml
 
 - include_tasks: rotate.yml

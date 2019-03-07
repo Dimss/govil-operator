@@ -14,7 +14,7 @@
   when:
   - item.metadata.creationTimestamp == timestamp_sorted_list[0]
 
-- name: Remove oldest ReactSample instace
+- name: Remove oldest ReactSample instance
   k8s:
     state: absent
     kind: ReactSample

@@ -1,0 +1,3 @@
+- name: Validate profile
+  fail: msg="Incorrect profile. Supported values are dev/lab/prod"
+  when: profile not in profiles
