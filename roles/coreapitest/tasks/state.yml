@@ -13,7 +13,6 @@
       set_fact:
         route_destination_service: "{{latest_route.resources[0].spec.to.name}}"
       when: latest_route.resources | length > 0
-  when: profile == "dev"
 
 # Latest CoreApiTest state setup
 - name: Latest CoreApiTest state setup

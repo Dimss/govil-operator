@@ -1,5 +1,6 @@
-- name: CoreApiTest depndencies deployment
+- name: CoreApiTest depndencies for DEV environment only
   include_tasks: dep.yml
+  when: profile == "dev"
 
 - name: Set state
   include_tasks: state.yml

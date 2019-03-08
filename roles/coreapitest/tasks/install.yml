@@ -21,7 +21,6 @@
         state: present
         definition: "{{ lookup('template', 'templates/route-latest.yml') }}"
   when:
-    - profile == "dev"
     - newest_deployment.metadata.name != route_destination_service
 
 - name: Create CoreApiTest Deployment

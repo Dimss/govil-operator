@@ -5,7 +5,7 @@ metadata:
   profile: "{{profile}}"
   namespace: "{{namespace}}"
 spec:
-  appName: "{{app_name}}"
+  confSecretName: "{{app_name}}"
   profile: "{{profile}}"
   namespace: "{{namespace}}"
   dbhost: "{{resources.mongo.dbhost}}"

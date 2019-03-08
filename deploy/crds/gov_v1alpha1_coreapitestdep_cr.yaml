@@ -1,14 +1,15 @@
+# CoreApiTestDep EXAMPLE for CoreApiTest app in LAB environment
 apiVersion: gov.il/v1alpha1
 kind: CoreApiTestDep
 metadata:
-  name: govil-coreapitest-9ca9818
+  name: coreapitestdep-lab
   labels:
-    profile: dev
+    profile: lab
 spec:
-  appName: my-app
-  profile: dev
+  confSecretName: coreapitest-lab
+  profile: lab
   namespace: govil
-  dbhost: mongo-govil-coreapitest-lab
+  dbhost: mongo-coreapitest-lab
   dbuser: app
   dbpass: app
   dbname: coreapitestdb

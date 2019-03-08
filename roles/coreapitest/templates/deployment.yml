@@ -22,12 +22,12 @@ spec:
         - name: ControllerSettings__DbConfig__DbConnectionString
           valueFrom:
             secretKeyRef:
-              name: {{app_name}}
+              name: {{conf_secret_name}}
               key: db_conn_str
         - name: ControllerSettings__DbConfig__DbName
           valueFrom:
             secretKeyRef:
-              name: {{app_name}}
+              name: {{conf_secret_name}}
               key: db_name
         ports:
           - containerPort: {{container_port}}
