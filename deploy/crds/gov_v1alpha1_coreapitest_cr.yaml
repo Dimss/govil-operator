@@ -18,29 +18,30 @@
 #     type: gb
 #     weight: 50
 
-metadata:
-  name: govil-coreapitest-4653c20
-  labels:
-    template: CoreApiTest
-apiVersion: gov.il/v1alpha1
-kind: CoreApiTest
-spec:
-  image: docker.io/dimssss/coreapitest:4653c20-10
-  size: '1'
-  appName: govil-coreapitest-4653c20
-  latestRouteHost: coreapitest-dev-latest.router.default.svc.cluster.local
-  profile: dev
-  namespace: govil
-  containerPort: '8080'
-  resources:
-    mongo:
-      dbimage: docker-registry.default.svc:5000/openshift/mongodb:3.6
-      dbpass: app
-      dbuser: app
-      dbhost: mongo-govil-coreapitest-4653c20
-      dbname: coreapitestdb
-  confSecretName: govil-coreapitest-4653c20
-  deploymentStrategy:
-    type: gb
-    weight: 50
-  latestRouteName: coreapitest-latest-dev
+  apiVersion: gov.il/v1alpha1
+  kind: CoreApiTest
+  metadata:
+    labels:
+      profile: dev
+    name: govil-coreapitest-95132c0
+    namespace: govil
+  spec:
+    appName: govil-coreapitest-95132c0
+    confSecretName: govil-coreapitest-95132c0
+    containerPort: "8080"
+    deploymentStrategy:
+      type: gb
+      weight: 50
+    image: docker.io/dimssss/coreapitest:95132c0-15
+    latestRouteHost: coreapitest-dev-latest.router.default.svc.cluster.local
+    latestRouteName: coreapitest-latest-dev
+    namespace: govil
+    profile: dev
+    resources:
+      mongo:
+        dbhost: mongo-govil-coreapitest-95132c0
+        dbimage: docker-registry.default.svc:5000/openshift/mongodb:3.6
+        dbname: coreapitestdb
+        dbpass: app
+        dbuser: app
+    size: "1"
