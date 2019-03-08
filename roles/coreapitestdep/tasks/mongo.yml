@@ -43,5 +43,16 @@
       k8s:
         state: present
         definition: "{{ lookup('template', 'templates/mongodb/persistent/dc.yml') }}"
+
+    - name: Wait for MongoDB become up
+      k8s_facts:
+        kind: DeploymentConfig
+        api_version: apps.openshift.io/v1
+        namespace: "{{namespace}}"
+        name: "{{dbhost}}"
+      register: mongodb_dc
+      until: 'mongodb_dc.resources | length > 0 and "availableReplicas" in mongodb_dc.resources[0].status and mongodb_dc.resources[0].status.availableReplicas == 1'
+      delay: 1
+      retries: 60
   when:
     - profile == "lab"
