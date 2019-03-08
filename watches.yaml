@@ -6,7 +6,7 @@
 - version: v1alpha1
   group: gov.il
   kind: CoreApiTestDep
-  playbook: /opt/ansible/coreapitest.yml
+  playbook: /opt/ansible/coreapitestdep.yml
 
 - version: v1alpha1
   group: gov.il
