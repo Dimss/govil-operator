@@ -3,6 +3,23 @@ kind: ReactSample
 metadata:
   labels:
     profile: lab
+  name: govil-react-sample-v0-6
+  namespace: govil
+spec:
+  appName: govil-react-sample-v0-6
+  containerPort: "8080"
+  image: docker.io/dimssss/react-sample:v0.6
+  namespace: govil
+  profile: lab
+  routePrefix: reactsample-lab
+  size: "1"
+  max_reactsample_instances: 2
+---
+apiVersion: gov.il/v1alpha1
+kind: ReactSample
+metadata:
+  labels:
+    profile: lab
   name: govil-react-sample-v0-8
   namespace: govil
 spec:
@@ -19,51 +36,14 @@ apiVersion: gov.il/v1alpha1
 kind: ReactSample
 metadata:
   labels:
-    profile: lab
-  name: govil-react-sample-v0-6
+    profile: dev
+  name: govil-react-sample-86cf4cd
   namespace: govil
 spec:
-  appName: govil-react-sample-v0-6
+  appName: govil-react-sample-86cf4cd
   containerPort: "8080"
-  image: docker.io/dimssss/react-sample:v0.6
+  image: docker.io/dimssss/react-sample:86cf4cd-26
   namespace: govil
-  profile: lab
-  routePrefix: reactsample-lab
+  profile: dev
+  routePrefix: reactsample-dev
   size: "1"
-  max_reactsample_instances: 2
-
-# apiVersion: gov.il/v1alpha1
-# kind: ReactSample
-# metadata:
-#   name: govil-react-sample-040777f
-#   labels:
-#     profile: dev
-# spec:
-#   appName: govil-react-sample-040777f
-#   containerPort: "8080"
-#   profile: dev
-#   deploymentStrategy:
-#     type: gb
-#     weight: 50
-#   image: docker.io/dimssss/react-sample:040777f-8
-#   namespace: govil
-#   routePrefix: reactsample-dev
-#   size: "1"
----
-# kind: ReactSample
-# apiVersion: gov.il/v1alpha1
-# metadata:
-#   name: govil-react-sample-eb99362
-#   labels:
-#       profile: dev
-# spec:
-#   image: docker.io/dimssss/react-sample:eb99362-7
-#   size: '1'
-#   appName: govil-react-sample-eb99362
-#   profile: dev
-#   namespace: govil
-#   containerPort: '8080'
-#   deploymentStrategy:
-#     type: gb
-#     weight: 50
-#   routeName: reactsample-dev

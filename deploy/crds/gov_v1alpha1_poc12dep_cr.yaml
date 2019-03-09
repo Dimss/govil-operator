@@ -1,12 +1,13 @@
-kind: Poc12Dep
 apiVersion: gov.il/v1alpha1
+kind: Poc12Dep
 metadata:
   name: poc12-rabbitmq-dev
+  namespace: govil
 spec:
   depOwner: poc12
-  profile: dev
-  namespace: govil
-  service: poc12-rabbitmq-dev
   image: docker.io/rabbitmq:3-management
-  routeHostSuffix: router.default.svc.cluster.local
+  namespace: govil
+  profile: dev
   queueName: sites
+  routeHostSuffix: router.default.svc.cluster.local
+  service: poc12-rabbitmq-dev
