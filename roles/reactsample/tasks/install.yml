@@ -8,6 +8,7 @@
   k8s:
     state: present
     definition: "{{ lookup('template', 'templates/app/route.yml') }}"
+  when: when: reactsample_deployment.resources | length == 1
 
 - name: Create ReactSample Deployment
   k8s:
