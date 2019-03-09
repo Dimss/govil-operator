@@ -3,6 +3,6 @@
 - include_tasks: state.yml
 
 - include_tasks: rotate.yml
-  when: reactsample_deployment.resources | length > 1
+  when: reactsample_deployment.resources | length > max_reactsample_instances
 
 - include_tasks: install.yml
