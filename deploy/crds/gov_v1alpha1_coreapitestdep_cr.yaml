@@ -13,4 +13,4 @@ spec:
   dbuser: app
   dbpass: app
   dbname: coreapitestdb
-  dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.6"
+  dbimage: "docker-registry.default.svc:5000/openshift/mongodb:3.2"
