@@ -12,6 +12,7 @@ spec:
   namespace: govil
   profile: lab
   routePrefix: reactsample-lab
+  routeSuffix: apps.openshift.sales.lab.tlv.redhat.com
   size: "1"
   max_reactsample_instances: 2
 ---

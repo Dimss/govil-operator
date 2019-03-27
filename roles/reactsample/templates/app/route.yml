@@ -4,7 +4,7 @@ metadata:
   name: "{{app_name}}"
   namespace: "{{namespace}}"
 spec:
-  host: "{{route_prefix}}.router.default.svc.cluster.local"
+  host: "{{route_prefix}}.{{route_suffix}}"
   to:
     kind: Service
     name: "{{app_name}}"
