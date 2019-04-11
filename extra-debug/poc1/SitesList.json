@@ -1,0 +1,2144 @@
+[
+  {
+    "Site": "http://asp.mot.gov.il/he/",
+    "Title": "רשות הספנות והנמלים",
+    "URLafterRedirect": "http://asp.mot.gov.il/he/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/kalpi",
+    "Title": "בחירות 2018",
+    "URLafterRedirect": "https://www.gov.il/apps/moin/bocharim/",
+    "TimeToReport": "20",
+    "Misc": "local elections 2018 "
+  },
+  {
+    "Site": "http://caa.gov.il/index.php?lang=he",
+    "Title": "עמוד הבית",
+    "URLafterRedirect": "http://caa.gov.il/index.php?lang=he",
+    "TimeToReport": "15",
+    "Misc": "רשות התעופה האזרחית"
+  },
+  {
+    "Site": "http://call.gov.il",
+    "Title": "כל הבריאות",
+    "URLafterRedirect": "http://call.gov.il/infocenter/index?page=home",
+    "TimeToReport": "15",
+    "Misc": "משרד הבריאות"
+  },
+  {
+    "Site": "http://car.cma.gov.il",
+    "Title": "",
+    "URLafterRedirect": "https://car.cma.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "מחשבון תעריפי ביטוח רכב חובה"
+  },
+  {
+    "Site": "http://cp.moin.gov.il/Pages/homepage.aspx",
+    "Title": "מינהל התכנון-תהליך רישוי הבנייה",
+    "URLafterRedirect": "https://www.gov.il/he/departments/topics/construction_licensing_information_exchange",
+    "TimeToReport": "40",
+    "Misc": ""
+  },
+  {
+    "Site": "http://designsearch.justice.gov.il",
+    "Title": "חיפוש במאגר העיצובים (מדגמים)",
+    "URLafterRedirect": "https://designsearch.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://dira.cma.gov.il/",
+    "Title": "מחשבון ביטוח דירה - רשות שוק ההון",
+    "URLafterRedirect": "https://dira.cma.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://ecom.gov.il/counter/general/Homepage.aspx?counter=17&catalog=0&language=he",
+    "Title": "שירות התשלומים הממשלתי - משרד המשפטים",
+    "URLafterRedirect": "https://ecom.gov.il/counter/general/Homepage.aspx?counter=17&catalog=0&language=he",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://formspdf.justice.gov.il/Lawyers/ExtConst.aspx",
+    "Title": "העסקת יועצים משפטיים חיצוניים במשרדי הממשלה | משרד המשפטים",
+    "URLafterRedirect": "https://formspdf.justice.gov.il/Lawyers/ExtConst.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://gemelnet.cma.gov.il/views/dafmakdim.aspx",
+    "Title": "גמל נט - מערכת להשוואת קופות גמל",
+    "URLafterRedirect": "https://gemelnet.cma.gov.il/views/dafmakdim.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://haotzarsheli.mof.gov.il",
+    "Title": "האוצר שלי",
+    "URLafterRedirect": "https://haotzarsheli.mof.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://hebrew.moia.gov.il",
+    "Title": "דף הבית אתר קולטים עברית - ללימוד, שיפור ותרגול השפה העברית",
+    "URLafterRedirect": "http://hebrew.moia.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://hly.gov.il",
+    "Title": "חיסכון לכל ילד",
+    "URLafterRedirect": "https://hly.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://hsgs.mof.gov.il",
+    "Title": "אתר דוח הממונה על השכר - ברוכים הבאים לאתר דוח הממונה על השכר",
+    "URLafterRedirect": "https://hsgs.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://iaec.gov.il/",
+    "Title": "דף הבית",
+    "URLafterRedirect": "http://iaec.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": "הועדה לאנרגיה אטומית"
+  },
+  {
+    "Site": "http://ica.justice.gov.il",
+    "Title": "מידע ושרותים מקוונים - תאגידים Online",
+    "URLafterRedirect": "https://ica.justice.gov.il/GenericCorporarionInfo/SearchCorporation?unit=8",
+    "TimeToReport": "20",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "http://insurancedata.cma.gov.il/pages/entry.aspx",
+    "Title": "דף הבית - מערכת מידע לציבור",
+    "URLafterRedirect": "http://insurancedata.cma.gov.il/pages/entry.aspx",
+    "TimeToReport": "15",
+    "Misc": "רשות שוק ההון, ביטוח וחסכון"
+  },
+  {
+    "Site": "http://investinisrael.gov.il",
+    "Title": "Invest In Israel",
+    "URLafterRedirect": "https://investinisrael.gov.il/Pages/default.aspx",
+    "TimeToReport": "60",
+    "Misc": ""
+  },
+  {
+    "Site": "http://iplan.gov.il",
+    "Title": "מינהל התכנון | דף הבית",
+    "URLafterRedirect": "http://www.iplan.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": "אתר ישן"
+  },
+  {
+    "Site": "http://land.gov.il",
+    "Title": "רשות מקרקעי ישראל | דף הבית",
+    "URLafterRedirect": "http://land.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://maarachot.idf.il/71929-he/Maarachot.aspx",
+    "Title": "אתר הוצאת מערכות",
+    "URLafterRedirect": "http://maarachot.idf.il/71929-he/Maarachot.aspx",
+    "TimeToReport": "15",
+    "Misc": "בית ההוצאה לאור ש צה\"ל"
+  },
+  {
+    "Site": "http://main.knesset.gov.il/Pages/default.aspx",
+    "Title": "אתר הכנסת – דף הבית",
+    "URLafterRedirect": "https://main.knesset.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://mapi.gov.il",
+    "Title": "",
+    "URLafterRedirect": "http://mapi.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": "המרכז למיפוי ישראל"
+  },
+  {
+    "Site": "http://mavat.moin.gov.il/mavatps/forms/sv3.aspx?tid=3",
+    "Title": "משרד האוצר - מנהל התכנון - תכנון זמין - איתור תכנית וישות תכנונית",
+    "URLafterRedirect": "http://mavat.moin.gov.il/mavatps/forms/sv3.aspx?tid=3",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://mena.police.gov.il",
+    "Title": "מערכת נפגעי עבירה",
+    "URLafterRedirect": "https://mena.police.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://metadata.gov.il",
+    "Title": "דף הבית",
+    "URLafterRedirect": "http://metadata.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "אתר המטאדאטה (מערכת מידע גיאוגרפי)"
+  },
+  {
+    "Site": "http://miluim.aka.idf.il",
+    "Title": "אתר המילואים",
+    "URLafterRedirect": "http://www.miluim.aka.idf.il/894-he/Miluim.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://mof.gov.il/ag",
+    "Title": "אגף החשב הכללי",
+    "URLafterRedirect": "https://mof.gov.il/ag",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://mof.gov.il/en",
+    "Title": "Israeli Ministry of Finance - HomePage",
+    "URLafterRedirect": "https://mof.gov.il/en",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://mof.gov.il/GCA",
+    "Title": "רשות החברות - דף הבית",
+    "URLafterRedirect": "https://mof.gov.il/GCA",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://mof.gov.il/hon",
+    "Title": "רשות שוק ההון, ביטוח וחסכון",
+    "URLafterRedirect": "https://mof.gov.il/hon",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://mof.gov.il/rechev",
+    "Title": "מנהל הרכב הממשלתי",
+    "URLafterRedirect": "https://mof.gov.il/rechev",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://moia.gov.il/Moia_he",
+    "Title": "משרד העלייה והקליטה",
+    "URLafterRedirect": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://negev-galil.gov.il",
+    "Title": "המשרד לפיתוח הפריפריה, הנגב והגליל דף הבית",
+    "URLafterRedirect": "http://negev-galil.gov.il/Pages/Home.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://pcc.mof.gov.il",
+    "Title": "מוצרים בפיקוח ועדת המחירים",
+    "URLafterRedirect": "http://pcc.mof.gov.il/#/homepage",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://pensyanet.cma.gov.il/",
+    "Title": "פנסיה נט",
+    "URLafterRedirect": "https://pensyanet.cma.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://plans.gov.il/Pages/Tamar_Material.aspx",
+    "Title": "",
+    "URLafterRedirect": "http://plans.gov.il/Pages/Tamar_Material.aspx",
+    "TimeToReport": "15",
+    "Misc": "תכניות עבודה לשנים 2017-2018"
+  },
+  {
+    "Site": "http://regulation.pmo.gov.il",
+    "Title": "דף הבית",
+    "URLafterRedirect": "http://regulation.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "אתר הרגולציה הממשלתי"
+  },
+  {
+    "Site": "http://simulator-prisha.mof.gov.il",
+    "Title": "סימולטור פרישה - כניסה",
+    "URLafterRedirect": "https://simulator-prisha.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://statistics.boi.org.il",
+    "Title": "דף מעקב יומי",
+    "URLafterRedirect": "http://statistics.boi.org.il/",
+    "TimeToReport": "15",
+    "Misc": "בנק ישראל"
+  },
+  {
+    "Site": "http://tzoarim.gov.il",
+    "Title": "צוערים לשירות המדינה דף הבית",
+    "URLafterRedirect": "http://tzoarim.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://votes20.gov.il/",
+    "Title": "ועדת הבחירות המרכזית לכנסת ה-20 | תוצאות ארציות",
+    "URLafterRedirect": "http://votes20.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.al-harishum.moch.gov.il/",
+    "Title": "בדיקת מצב רישום הדירה",
+    "URLafterRedirect": "http://www.al-harishum.moch.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "מערכת מידע על רישום מקרקעין"
+  },
+  {
+    "Site": "http://www.antidrugs.gov.il/",
+    "Title": "הרשות למאבק באלימות סמים ואלכוהול",
+    "URLafterRedirect": "http://www.antidrugs.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.antiquities.org.il/",
+    "Title": "Israel Antiquities Authority",
+    "URLafterRedirect": "http://www.antiquities.org.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.antitrust.gov.il/",
+    "Title": "רשות הגבלים עסקיים",
+    "URLafterRedirect": "http://www.antitrust.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.archive.gov.il",
+    "Title": "ארכיון המדינה",
+    "URLafterRedirect": "http://www.archives.gov.il/",
+    "TimeToReport": "25",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.boi.org.il/en/Pages/Default.aspx",
+    "Title": "Bank of Israel",
+    "URLafterRedirect": "https://www.boi.org.il/en/Pages/Default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.boi.org.il/heb/Pages/HomePage.aspx",
+    "Title": "בנק ישראל - בנק ישראל",
+    "URLafterRedirect": "https://www.boi.org.il/heb/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.cbs.gov.il/reader",
+    "Title": "מדינת ישראל - הלשכה המרכזית לסטטיסטיקה",
+    "URLafterRedirect": "http://www.cbs.gov.il/reader",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.csc.gov.il/Pages/HomePage.aspx",
+    "Title": "נציבות שירות המדינה ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/Civil_Service_Commission",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.data.gov.il",
+    "Title": "ברוכים הבאים - Government Data",
+    "URLafterRedirect": "https://data.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "אתר מאגרי המידע הממשלתיים"
+  },
+  {
+    "Site": "http://www.economy.gov.il/Trade/ConsumerProtection/Pages/default.aspx",
+    "Title": "הרשות להגנת הצרכן ולסחר הוגן ",
+    "URLafterRedirect": "http://www.economy.gov.il/Trade/ConsumerProtection/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.eitan.aka.idf.il/894-he/Eitan.aspx",
+    "Title": "דף הבית",
+    "URLafterRedirect": "http://www.eitan.aka.idf.il/894-he/Eitan.aspx",
+    "TimeToReport": "15",
+    "Misc": "הענף לאיתור נעדרים"
+  },
+  {
+    "Site": "http://www.fishery.moag.gov.il/",
+    "Title": "דיג וחקלאות מים | משרד החקלאות ופיתוח הכפר",
+    "URLafterRedirect": "http://www.moag.gov.il/yhidotmisrad/fishery/pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.forms.gov.il/globaldata/getsequence/gethtmlform.aspx?formType=askVisaEng@tehila.gov.il",
+    "Title": "Request for a Visa to Enter Israel",
+    "URLafterRedirect": "https://www.forms.gov.il/globaldata/getsequence/gethtmlform.aspx?formType=askVisaEng@tehila.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.forms.gov.il/globaldata/getsequence/getsequence.aspx?formType=Amar@moh.health.gov.il",
+    "Title": "בקשה ליבוא אמ\"ר",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=Amar_hasava7@moh.health.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.forms.gov.il/globaldata/getsequence/getsequence.aspx?formType=foodrequest@moh.health.gov.il",
+    "Title": "בקשה לשחרור משלוח מזון מתחנת ההסגר",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=FoodRequest_pilot@moh.health.gov.il",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "http://www.hagnas.atal.idf.il",
+    "Title": "",
+    "URLafterRedirect": "http://www.hagnas.atal.idf.il/894-he/Sviva.aspx",
+    "TimeToReport": "15",
+    "Misc": "אט\"ל הגנת הסביבה"
+  },
+  {
+    "Site": "http://www.hrights.mof.gov.il",
+    "Title": "דף הבית-מחשבון זכויות",
+    "URLafterRedirect": "https://zakaim.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "מחשבון זכויות לניצולי השואה"
+  },
+  {
+    "Site": "http://www.iaa.gov.il/he-IL/rashot/Pages/default.aspx",
+    "Title": "\nרשות שדות התעופה",
+    "URLafterRedirect": "http://www.iaa.gov.il/he-IL/rashot/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.ilpatsearch.justice.gov.il/ui",
+    "Title": "מדינת ישראל - משרד המשפטים",
+    "URLafterRedirect": "http://www.ilpatsearch.justice.gov.il/ui/",
+    "TimeToReport": "15",
+    "Misc": "מאגר רשות הפטנטים"
+  },
+  {
+    "Site": "http://www.ims.gov.il/ims/all_tahazit/",
+    "Title": "השירות המטאורולוגי הישראלי - דף הבית",
+    "URLafterRedirect": "http://www.ims.gov.il/ims/all_tahazit/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.isa.gov.il",
+    "Title": "רשות ניירות ערך :: דף הבית",
+    "URLafterRedirect": "http://www.isa.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": "רשות לניירות ערך"
+  },
+  {
+    "Site": "http://www.israeli-hope.gov.il",
+    "Title": "בית הנשיא - תקווה ישראלית |",
+    "URLafterRedirect": "https://israeli-hope.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.israelnewtech.gov.il",
+    "Title": "קידום טכנולוגיות מים | אנרגיה מתחדשת - Israel NewTech",
+    "URLafterRedirect": "http://israelnewtech.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.justice.gov.il/Units/ApotroposKlali/Pages/default.aspx",
+    "Title": "האפוטרופוס הכללי והכונס הרשמי  - משרד המשפטים",
+    "URLafterRedirect": "https://www.justice.gov.il/Units/ApotroposKlali/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.justice.gov.il/units/appealstribunal/Pages/default.aspx",
+    "Title": "בתי הדין לפי חוק הכניסה לישראל",
+    "URLafterRedirect": "https://www.gov.il/he/departments/ministry_of_justice_appeals_tribunal",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.justice.gov.il/Units/RashamHaptentim/Pages/Default.aspx",
+    "Title": "רשות הפטנטים  - משרד המשפטים",
+    "URLafterRedirect": "https://www.justice.gov.il/Units/RashamHaptentim/Pages/Default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.justice.gov.il/Units/Reshomot/publications/Pages/OfficialGazette.aspx",
+    "Title": "משרד המשפטים  -  ילקוט הפרסומים",
+    "URLafterRedirect": "https://www.justice.gov.il/Units/Reshomot/publications/Pages/OfficialGazette.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.kosher-kravi.idf.il/894-he/orchot.aspx",
+    "Title": "אורחות חיים",
+    "URLafterRedirect": "http://www.kosher-kravi.idf.il/894-he/orchot.aspx",
+    "TimeToReport": "15",
+    "Misc": "מחלקת הכושר הקרבי"
+  },
+  {
+    "Site": "http://www.lapam.gov.il/",
+    "Title": "לפמ | לשכת הפרסום הממשלתית",
+    "URLafterRedirect": "http://www.lapam.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.mevaker.gov.il/he/Pages/default.aspx",
+    "Title": "מבקר המדינה - דף הבית ",
+    "URLafterRedirect": "http://www.mevaker.gov.il/he/Pages/default.aspx?AspxAutoDetectCookieSupport=1",
+    "TimeToReport": "15",
+    "Misc": "            "
+  },
+  {
+    "Site": "http://www.moag.gov.il",
+    "Title": "משרד החקלאות | משרד החקלאות ופיתוח הכפר",
+    "URLafterRedirect": "https://www.moag.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": "            "
+  },
+  {
+    "Site": "http://www.moag.gov.il/subject/gis/Pages/default.aspx",
+    "Title": "\n             מערכת מידע גיאוגרפי - GIS | משרד החקלאות ופיתוח הכפר",
+    "URLafterRedirect": "https://www.moag.gov.il/subject/gis/Pages/default.aspx",
+    "TimeToReport": "20",
+    "Misc": "     "
+  },
+  {
+    "Site": "http://www.moc.gov.il/8-he/MOC.aspx",
+    "Title": "משרד התקשורת",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_communications",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.mof.gov.il/",
+    "Title": "משרד האוצר - דף הבית ",
+    "URLafterRedirect": "https://mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.moin.gov.il",
+    "Title": "משרד הפנים",
+    "URLafterRedirect": "https://www.gov.il/he/departments/ministry_of_interior",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.molsa.gov.il",
+    "Title": "משרד העבודה, הרווחה והשירותים החברתיים - דף הבית",
+    "URLafterRedirect": "https://www.molsa.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.nakhal.idf.il/",
+    "Title": "נציב קבילות החיילים (נקח\"ל)",
+    "URLafterRedirect": "http://www.nakhal.idf.il/894-he/Nakhal.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.navy.idf.il",
+    "Title": "זרוע הים",
+    "URLafterRedirect": "http://www.navy.idf.il/894-he/Navy.aspx",
+    "TimeToReport": "60",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.nihul.cma.gov.il/",
+    "Title": "מחשבון דמי ניהול - רשות שוק ההון, ",
+    "URLafterRedirect": "https://nihul.cma.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.nsc.gov.il/he/Pages/default.aspx",
+    "Title": "המטה לביטחון לאומי",
+    "URLafterRedirect": "http://www.nsc.gov.il/he/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.pmo.gov.il/BranchesAndUnits/direcgeneral/Pages/Atudot.aspx",
+    "Title": "עתודות לישראל ",
+    "URLafterRedirect": "http://www.pmo.gov.il/BranchesAndUnits/direcgeneral/Pages/Atudot.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.pmo.gov.il/Pages/default.aspx",
+    "Title": "משרד ראש הממשלה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/prime_ministers_office",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.pmo.gov.il/policyplanning/shituf/Pages/newTzibur.aspx",
+    "Title": "שיתוף ציבור",
+    "URLafterRedirect": "http://www.pmo.gov.il/policyplanning/shituf/Pages/newTzibur.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.police.gov.il",
+    "Title": "משטרת ישראל",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/israel_police",
+    "TimeToReport": "15",
+    "Misc": "אתר ישן"
+  },
+  {
+    "Site": "http://www.president.gov.il/",
+    "Title": "בית הנשיא",
+    "URLafterRedirect": "https://www.gov.il/he/departments/president_of_the_state_of_israel",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.soreq.gov.il/",
+    "Title": "המרכז למחקר גרעיני שורק | דף הבית",
+    "URLafterRedirect": "http://soreq.gov.il/mmg/Pages/Home.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.sviva.gov.il",
+    "Title": "המשרד להגנת הסביבה",
+    "URLafterRedirect": "http://www.sviva.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.tazkirim.gov.il/Pages/default.aspx",
+    "Title": "קשרי ממשל",
+    "URLafterRedirect": "http://www.tazkirim.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": "פורטל השירותים והמידע הממשלתי"
+  },
+  {
+    "Site": "http://www.tehila.gov.il",
+    "Title": "",
+    "URLafterRedirect": "https://egov.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "דף הסבר על אבטח\"מ"
+  },
+  {
+    "Site": "http://www.trademarks.justice.gov.il/",
+    "Title": "אתר חיפוש סימני מסחר",
+    "URLafterRedirect": "http://www.trademarks.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.votes-19.gov.il",
+    "Title": "ועדת הבחירות המרכזית לכנסת ה-19 | תוצאות ארציות",
+    "URLafterRedirect": "http://www.votes-19.gov.il/nationalresults",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.water.gov.il/hebrew/Pages/home.aspx",
+    "Title": "רשות המים",
+    "URLafterRedirect": "http://www.water.gov.il/hebrew/Pages/home.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.yadvashem.org/",
+    "Title": "Yad Vashem. The World Holocaust Remembrance Center | www.yadvashem.org |",
+    "URLafterRedirect": "https://www.yadvashem.org/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://www.yohalan.aka.idf.il",
+    "Title": "יוהל\"ן",
+    "URLafterRedirect": "http://www.yohalan.aka.idf.il/894-he/Yohalan.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://ADMIN.FORMS.GOV.IL",
+    "Title": "אתר תפעול טפסים בייצור",
+    "URLafterRedirect": "https://admin.forms.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://ADMIN.SCA.FORMS.GOV.IL",
+    "Title": "אתר תפעול טפסים כריס חכם",
+    "URLafterRedirect": "https://admin.sca.forms.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://ADMIN.TEST.FORMS.GOV.IL",
+    "Title": "אתר תפעול טפסים בדיקות",
+    "URLafterRedirect": "https://admin.test.forms.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://ami.mof.gov.il/Tas/Default.aspx?w=1920&h=1200&",
+    "Title": "TAS - Login",
+    "URLafterRedirect": "https://ami.mof.gov.il/Tas/Default.aspx?w=1920&h=1200&",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://apacforms.justice.gov.il",
+    "Title": "הכונס הרשמי Online",
+    "URLafterRedirect": "https://apacforms.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://app.boi.gov.il/PamReq/faces/Login/login.jspx",
+    "Title": "login",
+    "URLafterRedirect": "https://app.boi.gov.il/PamReq/faces/Login/login.jspx",
+    "TimeToReport": "15",
+    "Misc": "בנק ישראל - הפיקוח על הבנקים - מערכת עמלות"
+  },
+  {
+    "Site": "https://app.boi.gov.il/pls/lmh_web/pl_entrance.ident",
+    "Title": "יחידת שוק מט\"ח ודיווחים ישירים",
+    "URLafterRedirect": "https://app.boi.gov.il/pls/lmh_web/pl_entrance.ident",
+    "TimeToReport": "15",
+    "Misc": "בנק ישראל"
+  },
+  {
+    "Site": "https://app.boi.gov.il/pls/pdk_web/pdkw.a1",
+    "Title": "מערכת דירקטורים",
+    "URLafterRedirect": "https://app.boi.gov.il/pls/pdk_web/pdkw.a1",
+    "TimeToReport": "15",
+    "Misc": "בנק ישראל"
+  },
+  {
+    "Site": "https://app.boi.gov.il/pls/pvk_web/pvk_start",
+    "Title": "מערכת מושל\"כ",
+    "URLafterRedirect": "https://app.boi.gov.il/pls/pvk_web/pvk_start",
+    "TimeToReport": "15",
+    "Misc": "בנק ישראל"
+  },
+  {
+    "Site": "https://archmapi.gov.il",
+    "Title": "",
+    "URLafterRedirect": "https://archmapi.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "תצפית- ארכיון מפות ומסמכי קדסטר"
+  },
+  {
+    "Site": "https://BAMA.MOPS.GOV.IL",
+    "Title": "מערכת במה - בקרה, מדידה, הערכה",
+    "URLafterRedirect": "https://bama.mops.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://contactinfo.cma.gov.il",
+    "Title": "מערכת דיווח בעלי תפקיד 3.1.0.11",
+    "URLafterRedirect": "https://contactinfo.cma.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://CPA-SC.JUSTICE.GOV.IL",
+    "Title": "אתר יחידות מקצועיות - אתר יחידות מקצועיות",
+    "URLafterRedirect": "https://cpa-sc.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://crm-egov.govnet.gov.il/itcm/",
+    "Title": "לוחות מחוונים: רשות תקשוב - מבט על - Microsoft Dynamics 365",
+    "URLafterRedirect": "https://crm-egov.govnet.gov.il/ITCM/main.aspx#",
+    "TimeToReport": "15",
+    "Misc": "Smart Card- מועד"
+  },
+  {
+    "Site": "https://crm-egov.govnet.gov.il/meitar/",
+    "Title": "לוחות מחוונים: לוח מחוונים - מנהל ממשל זמין - Microsoft Dynamics 365",
+    "URLafterRedirect": "https://crm-egov.govnet.gov.il/MEITAR/main.aspx#",
+    "TimeToReport": "15",
+    "Misc": "Smart Card- מיתר"
+  },
+  {
+    "Site": "https://EMPLOYERSINFO.CMA.GOV.IL",
+    "Title": "מערכת אותות - מידע למעסקים ",
+    "URLafterRedirect": "https://employersinfo.cma.gov.il/#/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://ext-mail.gov.il",
+    "Title": "Outlook",
+    "URLafterRedirect": "https://ext-mail.gov.il/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fext-mail.gov.il%2fowa%2f",
+    "TimeToReport": "15",
+    "Misc": "MAIL GOV"
+  },
+  {
+    "Site": "https://fileretrieval.justice.gov.il",
+    "Title": "הורדת מסמך/תיק",
+    "URLafterRedirect": "https://fileretrieval.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://foi.gov.il",
+    "Title": "חוק חופש המידע | חוק חופש המידע",
+    "URLafterRedirect": "https://foi.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=amutot18@justice.gov.il",
+    "Title": "דו\"ח על תרומה מישות מדינית זרה",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=amutot18@justice.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=amutot5@justice.gov.il",
+    "Title": "דין וחשבון מילולי",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=amutot5@justice.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=bioPassport@piba.gov.il",
+    "Title": "תשלום עבור דרכון/ תעודת מעבר",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=bioPassport@piba.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=CannabisReq@moh.gov.il",
+    "Title": "טופס בקשה לרישיון שימוש בקנביס רפואי",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=CannabisReq@moh.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=Competitiveparts@most.gov.il",
+    "Title": "שחרור חד-פעמי לחלקי חילוף לכלי תחרותי ביבוא אישי",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=Competitiveparts@most.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=CompetitiveTools@most.gov.il",
+    "Title": "בקשה לשחרור חד פעמי של כלי תחרותי ביבוא אישי",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=CompetitiveTools@most.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=dc5@moital.gov.il",
+    "Title": "עדכונט - שליחת מסמכים לעדכון לבקשה קיימת",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=dc5@moital.gov.il",
+    "TimeToReport": "15",
+    "Misc": "תמת - השלמת מסמכים למעונות יום"
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=engineer@moital.gov.il",
+    "Title": "שאלון רישום בפנקס מהנדסים ואדריכלים",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=engineer@moital.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=fti1new@moital.gov.il",
+    "Title": "בקשה לקבלת אישור/היתר יבוא",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=fti1new@moital.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr19@moin.gov.il",
+    "Title": "רישום שם הנולד/ת",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr19@moin.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr2a@moin.gov.il",
+    "Title": "בקשה לקבלת תעודת לידה",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr2a@moin.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr2c@moin.gov.il",
+    "Title": "בקשה לקבלת תעודת פטירה",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr2c@moin.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr31a@moin.gov.il",
+    "Title": "איתור מען",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=mr31a@moin.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=T1500@btl.gov.il",
+    "Title": "תביעה לדמי אבטלה",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=T1500@btl.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=T355@btl.gov.il",
+    "Title": "תביעה לתשלום דמי לידה ליולדת",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=T355@btl.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=T6101@btl.gov.il",
+    "Title": "דין וחשבון רב שנתי",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=T6101@btl.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=volunteer@pmo.gov.il",
+    "Title": "טופס בקשת הצטרפות לשירות הלאומי/התנדבות קהילתית",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=volunteer@pmo.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formtype=amutot6@justice.gov.il",
+    "Title": "דיווח על החלטת אסיפה כללית של עמותה",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=amutot6@justice.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formType=asp@mot.gov.il",
+    "Title": "בקשה ליבוא לכלי שייט ולחלקי חילוף של כלי שייט (בלבד)",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=asp_hasava@mot.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formtype=chillerImport@mni.gov.il",
+    "Title": "בקשה ליבוא צ'ילרים",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=chillerImport_hasava@mni.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formType=commercialCarImport@mot.gov.il",
+    "Title": "בקשה ליבוא מסחרי של כלי רכב",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=commercialCarImport@mot.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formType=KamatCommunication@idf.gov.il",
+    "Title": "בקשה לאישור יבוא ציוד תקשורת - לשטחי הרש\"פ ",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=KamatCommunication_hasava@idf.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formType=lrenew@mops.gov.il",
+    "Title": "חידוש רישיון",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=lrenew@mops.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formType=MedicineImport@moh.gov.il",
+    "Title": "בקשה לאישור יבוא תכשיר רפואי על פי תקנה 29 (א') 3",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=medicineImport_hasava@moh.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formtype=mr1@moin.gov.il",
+    "Title": "תשלום עבור תעודת זהות שאבדה/נגנבה/הושחתה",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=mr1@moin.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getsequence.aspx?formtype=prtrnew@sviva.gov.il",
+    "Title": "טופס דיווח למרשם פליטות והעברות לסביבה (PRTR)",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=prtrnew@sviva.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://FP3.FORMS.GOV.IL",
+    "Title": "טופס דוגמה",
+    "URLafterRedirect": "https://fp3.forms.gov.il/globaldata/getsequence/gethtmlform.aspx?formtype=demo1",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://GEOADMIN.MAPI.GOV.IL",
+    "Title": "שאילתת נקודות",
+    "URLafterRedirect": "https://geoadmin.mapi.gov.il/MainLogin.aspx?ReturnUrl=%2f",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://goodsreg.mof.gov.il",
+    "Title": "ויסות טובין",
+    "URLafterRedirect": "https://goodsreg.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "משרד האוצר"
+  },
+  {
+    "Site": "https://GOVPRO.GOV.IL",
+    "Title": "פורטל לקוחות ממשל זמין",
+    "URLafterRedirect": "https://govpro.gov.il/userauthorize",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://harb.cma.gov.il",
+    "Title": "הר הביטוח",
+    "URLafterRedirect": "https://harb.cma.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://helpmegaza.com",
+    "Title": "",
+    "URLafterRedirect": "https://helpmegaza.com/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": "HELP ME GAZA"
+  },
+  {
+    "Site": "https://hishtalmuyot.justice.gov.il/General/InstituteRegistration.aspx",
+    "Title": "הרשמה למכון להשתלמויות",
+    "URLafterRedirect": "https://hishtalmuyot.justice.gov.il/General/InstituteRegistration.aspx",
+    "TimeToReport": "15",
+    "Misc": "משרד המשפטים"
+  },
+  {
+    "Site": "https://HISHTALMUYOTSC.JUSTICE.GOV.IL",
+    "Title": "מכון להשתלמות פרקליטים ויועצים משפטיים  - משרד המשפטים",
+    "URLafterRedirect": "https://www.justice.gov.il/Units/HamrkazLhestlmoyotPraklitim/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://hozrimgca.mof.gov.il",
+    "Title": "רשות החברות",
+    "URLafterRedirect": "https://hozrimgca.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://hozrimsachar.mof.gov.il",
+    "Title": "חוזרי שכר",
+    "URLafterRedirect": "https://hozrimsachar.mof.gov.il/",
+    "TimeToReport": "20",
+    "Misc": ""
+  },
+  {
+    "Site": "https://hozrimtash.mof.gov.il",
+    "Title": "חוזרי שות\"ש",
+    "URLafterRedirect": "https://hozrimtash.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "משרד האוצר"
+  },
+  {
+    "Site": "https://ICA-ONLINE.JUSTICE.GOV.IL",
+    "Title": "נסח חברה - תאגידים Online",
+    "URLafterRedirect": "https://ica-online.justice.gov.il/Request/OpenRequest?rt=CompanyExtract",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://ILR-ONLINE.JUSTICE.GOV.IL",
+    "Title": "",
+    "URLafterRedirect": "https://ilr-online.justice.gov.il/TabuRequest/ErrorPage",
+    "TimeToReport": "15",
+    "Misc": "כניסה לטאסו ONLINE"
+  },
+  {
+    "Site": "https://importstatus.mof.gov.il/",
+    "Title": "",
+    "URLafterRedirect": "https://importstatus.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "מערכת מסלול (Smart Card)"
+  },
+  {
+    "Site": "https://ims.data.gov.il",
+    "Title": "מאגר נתוני השירות המטאורולוגי | אתר מאגרי המידע הממשלתיים | Data.gov.il",
+    "URLafterRedirect": "https://ims.data.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://INDC.IDF.IL",
+    "Title": "indc.idf.il",
+    "URLafterRedirect": "https://indc.idf.il/my.policy",
+    "TimeToReport": "15",
+    "Misc": "המכללות הצבאיות צה\"ל"
+  },
+  {
+    "Site": "https://itur.mof.gov.il/#/main/landing",
+    "Title": "דף הבית - הר הכסף",
+    "URLafterRedirect": "https://itur.mof.gov.il/#/main/landing",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://kehilot.molsa.gov.il",
+    "Title": "קהילות מקצועיות",
+    "URLafterRedirect": "https://www.kehilot.molsa.gov.il/Kehilot/Pages/wfLogin.aspx?ReturnUrl=%2fKehilot%2fdefault.aspx%3fNRMODE%3dPublished%26NRNODEGUID%3d%257bC7F8728B-77C6-4C5E-B01D-CC9268347F03%257d%26NRORIGINALURL%3d%252fkehilot%26NRCACHEHINT%3dGuest&NRMODE=Published&NRNODEGUID=%7bC7F8728B-77C6-4C5E-B01D-CC9268347F03%7d&NRORIGINALURL=%2fkehilot&NRCACHEHINT=Guest",
+    "TimeToReport": "15",
+    "Misc": "משרד הרווחה והשירותי החברתיים"
+  },
+  {
+    "Site": "https://LEGALCAPACITY-SC.JUSTICE.GOV.IL",
+    "Title": "כשרות משפטית ואפוטרופסות Online",
+    "URLafterRedirect": "https://legalcapacity-sc.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://m.miluim-ishi.aka.idf.il/#/",
+    "Title": "",
+    "URLafterRedirect": "https://m.miluim-ishi.aka.idf.il/#/",
+    "TimeToReport": "15",
+    "Misc": "מילואים כניסה לאיזור אישי"
+  },
+  {
+    "Site": "https://madim.atal.idf.il/Login.aspx?ReturnUrl=/Default.aspx",
+    "Title": "מדים עד הבית",
+    "URLafterRedirect": "https://madim.atal.idf.il/Login.aspx?ReturnUrl=/Default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://MAGNUM.MOF.GOV.IL",
+    "Title": "מגנו\"ם",
+    "URLafterRedirect": "https://magnum.mof.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://MAVDIL.JUSTICE.GOV.IL",
+    "Title": "בית הדין לעררים",
+    "URLafterRedirect": "https://mavdil.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://MISHPATAN.MMI.GOV.IL",
+    "Title": "משפטן",
+    "URLafterRedirect": "https://mishpatan.mmi.gov.il/mishpatan/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://MNG.MSENSE.TEHILA.GOV.IL",
+    "Title": " Make Sense ",
+    "URLafterRedirect": "https://mng.msense.tehila.gov.il/account/login?ReturnUrl=%2f",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://MNG.OCTOPUS.GOV.IL",
+    "Title": "OCTOPUS",
+    "URLafterRedirect": "https://mng.octopus.gov.il/Account/Login?ReturnUrl=%2f",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://mng.recaptcha.gov.il/#/apps/list",
+    "Title": "Tehila.Recaptcha.Management.Front",
+    "URLafterRedirect": "https://mng.recaptcha.gov.il/#/apps/list",
+    "TimeToReport": "15",
+    "Misc": "Management Tool Smart Card"
+  },
+  {
+    "Site": "https://mossad.gov.il",
+    "Title": "",
+    "URLafterRedirect": "https://www.mossad.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": "המוסד"
+  },
+  {
+    "Site": "https://NEW.APOTSCTEST.JUSTICE.GOV.IL",
+    "Title": "מנהלים מיוחדים",
+    "URLafterRedirect": "https://new.apotsctest.justice.gov.il/Home/Poshtim",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://new.govmap.gov.il",
+    "Title": "Govmap מפות ישראל",
+    "URLafterRedirect": "https://new.govmap.gov.il/?c=204000,595000&z=0",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://t.hishtalmuyotsc.justice.gov.il/TempPortal.aspx",
+    "Title": "מדמה פורטל משרד המשפטים לבדיקות",
+    "URLafterRedirect": "https://t.hishtalmuyotsc.justice.gov.il/TempPortal.aspx",
+    "TimeToReport": "30",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://NEW.IMPORTSTATUS.GOV.IL",
+    "Title": "מערכת מסלול",
+    "URLafterRedirect": "https://new.importstatus.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://PCTONLINE-SC.JUSTICE.GOV.IL",
+    "Title": "PCT Login",
+    "URLafterRedirect": "https://pctonline-sc.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://PDOONLINE-SC.JUSTICE.GOV.IL",
+    "Title": "הורדת טופס דרישה לתשלום שכר טרחה בגין ישיבות",
+    "URLafterRedirect": "https://pdoonline-sc.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://pe.cma.gov.il",
+    "Title": "אתר להגשת פניות הציבור - רשות שוק ההון",
+    "URLafterRedirect": "https://pe.cma.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://PHONEBOOK.CSC.GOV.IL",
+    "Title": "ספר טלפונים",
+    "URLafterRedirect": "https://phonebook.csc.gov.il/home",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://PIM.GOV.IL",
+    "Title": "Password Vault Sign In",
+    "URLafterRedirect": "https://pim.gov.il/PasswordVault/logon.aspx?ReturnUrl=%2fPasswordVault%2fdefault.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://PLEDGESSC.JUSTICE.GOV.IL",
+    "Title": "בקשת עיון במשכון - תאגידים Online",
+    "URLafterRedirect": "https://ica-online.justice.gov.il/SearchPledge/PledgeBrowse",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://PMEKOMI.MOIN.GOV.IL",
+    "Title": "משרד הפנים - כניסה למערכת",
+    "URLafterRedirect": "https://pmekomi.moin.gov.il/_layouts/15/Moin.Common/Pages/Login.aspx?msg=login",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://prdar2.mof.gov.il/#/ExternalUserGetway/ChooseReportType",
+    "Title": "",
+    "URLafterRedirect": "https://prdar2.mof.gov.il/#/ExternalUserGetway/ChooseReportType",
+    "TimeToReport": "15",
+    "Misc": "Smart Card- מערכת רואי חשבון השלמת דיווח על נתוני משרד"
+  },
+  {
+    "Site": "https://professionalunits.justice.gov.il/units/AppraiserRegistration/MainForm.aspx",
+    "Title": "כניסה למועצת שמאי מקרקעין",
+    "URLafterRedirect": "https://professionalunits.justice.gov.il/Home/Login?ReturnUrl=%2fAppraisers",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://professionalunits.justice.gov.il/units/RealestateRegistration/MainForm.aspx",
+    "Title": "כניסה לרשם המתווכים",
+    "URLafterRedirect": "https://professionalunits.justice.gov.il/Home/Login?ReturnUrl=%2fRealEstate",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://pua.gov.il",
+    "Title": "רשות החשמל",
+    "URLafterRedirect": "https://pua.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=commercialCompetitiveparts@most.gov.il",
+    "Title": "בקשה לאישור ושחרור חלקי חילוף ביבוא מסחרי",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=commercialCompetitiveparts@most.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=commercialCompetitiveTools@most.gov.il",
+    "Title": "טופס בקשה לשחרור של כלים תחרותיים ביבוא מסחרי",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=commercialCompetitiveTools@most.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=import7@mti.gov.il",
+    "Title": "בקשה לקבלת אישור הממונה על התקינה לטובין מיובאים",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=import7@mti.gov.il",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=StudyFA@mops.gov.il",
+    "Title": "קליטת נתוני הכשרה",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=StudyFA@mops.gov.il",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globalData/GetSequence/gethtmlform.aspx?formtype=WorkerAttach@mops.gov.il",
+    "Title": "שיוך עובדים וכלי ירייה בארגון",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globalData/GetSequence/gethtmlform.aspx?formtype=WorkerAttach@mops.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globaldata/getsequence/getsequence.aspx?formtype=bloodTissue@moh.health.gov.il",
+    "Title": "בקשה ליבוא תאים ורקמות, דם ומרכיביו",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=bloodTissue_hasava@moh.health.gov.il",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globaldata/getsequence/getsequence.aspx?formtype=Pharma@moh.health.gov.il",
+    "Title": "בקשה ליבוא תרופות וחומרים פרמצבטיים עפ צו יבוא חופשי",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=Pharma@moh.health.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://publicsca.forms.gov.il/globaldata/getsequence/getsequence.aspx?formtype=RequestFA@mops.gov.il",
+    "Title": "בקשה לרישיון כלי ירייה",
+    "URLafterRedirect": "https://publicsca.forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=RequestFA@mops.gov.il",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://qa.signup.gov.il/#/register",
+    "Title": "מערכת ההזדהות הממשלתית | gov.il",
+    "URLafterRedirect": "https://qa.signup.gov.il/#/register",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://QA.UPDATE.GOV.IL",
+    "Title": "הזדהות",
+    "URLafterRedirect": "https://up.idp.gov.il/my.policy",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://RAF.MOLSA.GOV.IL",
+    "Title": "",
+    "URLafterRedirect": "https://raf.molsa.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card- מערכת רף"
+  },
+  {
+    "Site": "https://REGISTERED.METADATA.GOV.IL",
+    "Title": "דף הבית",
+    "URLafterRedirect": "https://registered.metadata.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card- אתר המטאדאטה"
+  },
+  {
+    "Site": "https://REPORTS.MILUIM-ISHI.AKA.IDF.IL",
+    "Title": "Audit Report",
+    "URLafterRedirect": "https://reports.miluim-ishi.aka.idf.il/modules/AuditLog/AuditLog.aspx",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://rishuybniya.moin.gov.il/PersonalZone/Pages/Lobby.aspx",
+    "Title": "דף חידוש משך זמן ההתחברות",
+    "URLafterRedirect": "https://rishuybniya.moin.gov.il/PersonalZone/Pages/EndOfSessionPage.aspx",
+    "TimeToReport": "30",
+    "Misc": "Smart Card- רישוי זמין"
+  },
+  {
+    "Site": "https://ROUNDTABLE.PMO.GOV.IL",
+    "Title": "התחבר | אגף ממשל וחברה",
+    "URLafterRedirect": "https://roundtable.pmo.gov.il/he/user/login?destination=node/204",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://S.GOVSHARE.GOV.IL",
+    "Title": "חשבון משתמש | Gov Share",
+    "URLafterRedirect": "https://s.govshare.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://sanegoria.justice.gov.il/Pages/Login.aspx?ReturnUrl=/Pages/Home.aspx",
+    "Title": "התחברות - משרד המשפטים",
+    "URLafterRedirect": "https://sanegoria.justice.gov.il/Pages/Login.aspx?ReturnUrl=/Pages/Home.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://SCA.GEO.TEHILA.GOV.IL",
+    "Title": "כניסה",
+    "URLafterRedirect": "https://sca.geo.tehila.gov.il/Login.aspx?ReturnUrl=%2f",
+    "TimeToReport": "15",
+    "Misc": "Smart Card-שרת התשלומים הממשלתי - ממשק ניהול"
+  },
+  {
+    "Site": "https://shabak.gov.il",
+    "Title": "שירות הביטחון הכללי",
+    "URLafterRedirect": "https://www.shabak.gov.il/Pages/index.html#=1",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://sides.rbc.gov.il",
+    "Title": "כניסה בתי דין רבניים",
+    "URLafterRedirect": "https://sides.rbc.gov.il/Login.aspx?ReturnUrl=%2f",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://SIYUALAWYERS.JUSTICE.GOV.IL",
+    "Title": "עורכי דין-הסיוע המשפטי Online",
+    "URLafterRedirect": "https://siyualawyers.justice.gov.il/Identification/NotAuthorized",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://taxes.gov.il/Pages/HomePage.aspx",
+    "Title": "רשות המסים בישראל - דף הבית",
+    "URLafterRedirect": "https://taxes.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://TIKUN84.JUSTICE.GOV.IL",
+    "Title": "",
+    "URLafterRedirect": "https://tikun84.justice.gov.il/Guest.aspx",
+    "TimeToReport": "15",
+    "Misc": "Smart Card- מערכת שמאי מכריע"
+  },
+  {
+    "Site": "https://trademarksonline.justice.gov.il/",
+    "Title": "סימני מסחר כניסה",
+    "URLafterRedirect": "https://trademarksonline.justice.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://tstar.mof.gov.il/#/ExternalUserGetway/ChooseReportType",
+    "Title": "",
+    "URLafterRedirect": "https://tstar.mof.gov.il/#/ExternalUserGetway/ChooseReportType",
+    "TimeToReport": "15",
+    "Misc": "Smart Card- מערכת רואי חשבון"
+  },
+  {
+    "Site": "https://UPDATE.GOV.IL",
+    "Title": "הזדהות",
+    "URLafterRedirect": "https://up.idp.gov.il/my.policy",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://VSTATS.TEHILA.GOV.IL",
+    "Title": "Sign in - Matomo",
+    "URLafterRedirect": "https://vstats.tehila.gov.il/",
+    "TimeToReport": "15",
+    "Misc": "Smart Card"
+  },
+  {
+    "Site": "https://www.aka.idf.il/main/sachar/",
+    "Title": "אתר השכר והכספים",
+    "URLafterRedirect": "https://www.aka.idf.il/main/sachar/",
+    "TimeToReport": "15",
+    "Misc": "צה\"ל"
+  },
+  {
+    "Site": "https://www.boi.org.il/he/consumerinformation/restrictedaccountsandcustomers/mushlaj/pages/index.aspx",
+    "Title": "המדור לטיפול בחשבונות מוגבלים",
+    "URLafterRedirect": "https://www.boi.org.il/he/consumerinformation/restrictedaccountsandcustomers/mushlaj/pages/index.aspx",
+    "TimeToReport": "15",
+    "Misc": "בנק ישראל"
+  },
+  {
+    "Site": "https://www.boi.org.il/he/Pages/MailingLists.aspx",
+    "Title": "בנק ישראל - רשימות תפוצה",
+    "URLafterRedirect": "https://www.boi.org.il/he/Pages/MailingLists.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.btl.gov.il/Pages/default.aspx",
+    "Title": "דף הבית, המוסד לביטוח לאומי ",
+    "URLafterRedirect": "https://www.btl.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/",
+    "Title": "gov.il - האתר החדש לשירותים ולמידע ממשלתי",
+    "URLafterRedirect": "https://www.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/authority_for_national_civic_service",
+    "Title": "רשות השירות הלאומי-אזרחי ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/authority_for_national_civic_service",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/bedouin_authority",
+    "Title": "הרשות לפיתוח והתיישבות הבדואים בנגב",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/bedouin_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/chief_rabbinate_of_israel",
+    "Title": "הרבנות הראשית לישראל ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/chief_rabbinate_of_israel",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/digital_israel",
+    "Title": "מטה המיזם הלאומי ישראל דיגיטלית, במשרד לשוויון חברתי ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/digital_israel",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/firefighting_and_rescue_israel",
+    "Title": "כבאות והצלה לישראל",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/firefighting_and_rescue_israel",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/government_ict_authority",
+    "Title": "רשות התקשוב הממשלתי ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/government_ict_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/Guides/witness_protection_authority_guide",
+    "Title": "המשרד לביטחון הפנים | הרשות להגנה על עדים",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/Guides/witness_protection_authority_guide",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/iplan",
+    "Title": "מינהל התכנון",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/iplan",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/israel_national_cyber_directorate",
+    "Title": "מערך הסייבר הלאומי",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/israel_national_cyber_directorate",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/israel_national_road_safety_authority",
+    "Title": "הרשות הלאומית לבטיחות בדרכים",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/israel_national_road_safety_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/israel_police",
+    "Title": "משטרת ישראל",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/israel_police",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/law_enforcement_and_collection_system_authority",
+    "Title": "רשות האכיפה והגבייה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/law_enforcement_and_collection_system_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_for_social_equality",
+    "Title": "המשרד לשוויון חברתי",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_for_social_equality",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_aliyah_and_integration",
+    "Title": "משרד העלייה והקליטה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_aliyah_and_integration",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_communications",
+    "Title": "משרד התקשורת",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_communications",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_construction_and_housing",
+    "Title": "משרד הבינוי והשיכון ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_construction_and_housing",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_culture_and_sport",
+    "Title": "משרד התרבות והספורט ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_culture_and_sport",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_economy",
+    "Title": "משרד הכלכלה והתעשייה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_economy",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_energy",
+    "Title": "משרד האנרגיה ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_energy",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_jerusalem_and_heritage",
+    "Title": "משרד ירושלים ומורשת",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_jerusalem_and_heritage",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_justice",
+    "Title": "משרד המשפטים",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_justice",
+    "TimeToReport": "15",
+    "Misc": "אתר ישן"
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_justice",
+    "Title": "משרד המשפטים",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_justice",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_public_security",
+    "Title": "המשרד לביטחון הפנים",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_public_security",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_religious_services",
+    "Title": "המשרד לשירותי דת",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_religious_services",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_science_and_technology",
+    "Title": "משרד המדע והטכנולוגיה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_science_and_technology",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_tourism",
+    "Title": "משרד התיירות",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_tourism",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/ministry_of_transport_and_road_safety",
+    "Title": "משרד התחבורה והבטיחות בדרכים",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/ministry_of_transport_and_road_safety",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/national_biometric_database_authority",
+    "Title": "רשות המאגר הביומטרי הלאומי",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/national_biometric_database_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/population_and_immigration_authority",
+    "Title": "רשות האוכלוסין וההגירה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/population_and_immigration_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/prime_ministers_office",
+    "Title": "משרד ראש הממשלה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/prime_ministers_office",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/prison_service",
+    "Title": "שירות בתי הסוהר ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/prison_service",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/public_transportion_authority",
+    "Title": "הרשות הארצית לתחבורה ציבורית",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/public_transportion_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/secretary",
+    "Title": "מזכירות הממשלה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/secretary",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/the_judicial_authority",
+    "Title": "הרשות השופטת",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/the_judicial_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/the_privacy_protection_authority",
+    "Title": "הרשות להגנת הפרטיות",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/the_privacy_protection_authority",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/the_rabbinical_courts",
+    "Title": "בתי הדין הרבניים ",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/the_rabbinical_courts",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/Departments/unit_enforcing_planning_and_construction_laws",
+    "Title": "היחידה הארצית לאכיפת דיני התכנון והבניה",
+    "URLafterRedirect": "https://www.gov.il/he/Departments/unit_enforcing_planning_and_construction_laws",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.gov.il/he/service/application_for_biometric_passport2",
+    "Title": "רשות האוכלוסין וההגירה | בקשה לדרכון",
+    "URLafterRedirect": "https://www.gov.il/he/service/application_for_biometric_passport2",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.health.gov.il",
+    "Title": "משרד הבריאות - דף הבית",
+    "URLafterRedirect": "https://www.health.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.landmarks.gov.il",
+    "Title": "ציוני דרך | מורשת לאומית ישראלית",
+    "URLafterRedirect": "https://www.landmarks.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.miluim-ishi.aka.idf.il/MedicalCommitteeRequest",
+    "Title": "כניסה לאזור האישי",
+    "URLafterRedirect": "https://www.miluim-ishi.aka.idf.il/Login?ReturnUrl=%2fMedicalCommitteeRequest",
+    "TimeToReport": "30",
+    "Misc": "אתר המילואים"
+  },
+  {
+    "Site": "https://www.mr.gov.il",
+    "Title": "מינהל הרכש - דף הבית",
+    "URLafterRedirect": "https://www.mr.gov.il/Pages/HomePage.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.nadlan.gov.il",
+    "Title": "אתר הנדל''ן הממשלתי ",
+    "URLafterRedirect": "https://www.nadlan.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.old.health.gov.il/vschool",
+    "Title": "הקמפוס הוירטואלי של משרד הבריאות",
+    "URLafterRedirect": "https://www.old.health.gov.il/vschool/site/index1.asp",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.people.iaf.org.il/Templates/Login/Login.aspx?ReturnUrl=%2fdefault.aspx",
+    "Title": "",
+    "URLafterRedirect": "https://www.people.iaf.org.il/Templates/Login/Login.aspx?ReturnUrl=%2fdefault.aspx",
+    "TimeToReport": "15",
+    "Misc": "חיל האויר והחלל פורטל אנשים"
+  },
+  {
+    "Site": "https://www.taasuka.gov.il/he",
+    "Title": "לוח דרושים - חיפוש עבודה - מעל 13,000 משרות פנויות - שירות התעסוקה",
+    "URLafterRedirect": "https://www.taasuka.gov.il/he",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.tac.gov.il",
+    "Title": "אתר מועצת יועצי המס בישראל",
+    "URLafterRedirect": "https://www.tac.gov.il/Pages/default.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://www.topocad.gov.il",
+    "Title": "טופוקד",
+    "URLafterRedirect": "https://www.topocad.gov.il/",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=refund_hasava@mof.gov.il",
+    "Title": "בקשות להחזר כספי עבור תשלומים שבוצעו באמצעות כרטיס אשראי בשירות התשלומים הממשלתי",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formType=refund_hasava@mof.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=apc2_hasava@justice.gov.il",
+    "Title": "תביעת חוב",
+    "URLafterRedirect": "https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=apc2_hasava@justice.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=tzavyerusha_test@justice.gov.il",
+    "Title": "בקשה לצו ירושה",
+    "URLafterRedirect": "https://forms.gov.il/globalData/GetSequence/getHtmlForm.aspx?formType=tzavyerusha_test@justice.gov.il",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=0501-1007-2017-008522",
+    "Title": "סער",
+    "URLafterRedirect": "https://saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=0501-1007-2017-008522",
+    "TimeToReport": "20",
+    "Misc": "GovP"
+  },
+  {
+    "Site": "https://saar.gov.il/SaarLite/dist.html?roid=090001f5800e398e",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://saar.gov.il/SaarLite/dist.html?roid=090001f5800e398e",
+    "TimeToReport": "20",
+    "Misc": ""
+  },
+  {
+    "Site": "https://most.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=5210-1234-2017-0000141",
+    "Title": "סער",
+    "URLafterRedirect": "https://most.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=5210-1234-2017-0000141",
+    "TimeToReport": "20",
+    "Misc": "Most"
+  },
+  {
+    "Site": "https://most.saar.gov.il/SaarLite/dist.html?roid=090175438003b170",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://most.saar.gov.il/SaarLite/dist.html?roid=090175438003b170",
+    "TimeToReport": "20",
+    "Misc": "Most"
+  },
+  {
+    "Site": "https://mofa.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=0900-0101-2017-000158",
+    "Title": "סער",
+    "URLafterRedirect": "https://mofa.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=0900-0101-2017-000158",
+    "TimeToReport": "20",
+    "Misc": "Mofa"
+  },
+  {
+    "Site": "https://mofa.saar.gov.il/SaarLite/dist.html?roid=090023288003a913",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://mofa.saar.gov.il/SaarLite/dist.html?roid=090023288003a913",
+    "TimeToReport": "20",
+    "Misc": "Mofa"
+  },
+  {
+    "Site": "https://moc.saar.gov.il/saar24e/component/exsearch?unitlayer=legal_app%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=5000-5001-2017-000332",
+    "Title": "סער",
+    "URLafterRedirect": "https://moc.saar.gov.il/saar24e/component/main/?unitlayer=legal_app&docType=gov_document&docAttrNames=gov_id&docAttrValues=5000-5001-2017-000332",
+    "TimeToReport": "20",
+    "Misc": "Moc"
+  },
+  {
+    "Site": "https://moc.saar.gov.il/SaarLite/dist.html?roid=0900232a800b8547",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://moc.saar.gov.il/SaarLite/dist.html?roid=0900232a800b8547",
+    "TimeToReport": "20",
+    "Misc": "Moc"
+  },
+  {
+    "Site": "https://water.saar.gov.il/saar/component/exsearch?unitlayer=legal_app%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=5500-5501-2016-000382",
+    "Title": "סער",
+    "URLafterRedirect": "https://water.saar.gov.il/saar/component/main/?unitlayer=legal_app&docType=gov_document&docAttrNames=gov_id&docAttrValues=5500-5501-2016-000382",
+    "TimeToReport": "20",
+    "Misc": "Water"
+  },
+  {
+    "Site": "https://water.saar.gov.il/SaarLite/dist.html?roid=0900157c800ee83a",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://water.saar.gov.il/SaarLite/dist.html?roid=0900157c800ee83a",
+    "TimeToReport": "20",
+    "Misc": "Water"
+  },
+  {
+    "Site": "https://tourism.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=1100-0007-2017-001184",
+    "Title": "סער",
+    "URLafterRedirect": "https://tourism.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=1100-0007-2017-001184",
+    "TimeToReport": "20",
+    "Misc": "Shared"
+  },
+  {
+    "Site": "https://tourism.saar.gov.il/SaarLite/dist.html?roid=09000fb4800c0702",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://tourism.saar.gov.il/SaarLite/dist.html?roid=09000fb4800c0702",
+    "TimeToReport": "20",
+    "Misc": "Shared"
+  },
+  {
+    "Site": "https://mapi.saar.gov.il/saar/component/main/?docAttrNames=gov_id&docAttrValues=2800-9999-2018-000634&docType=gov_document&unitlayer=lishka",
+    "Title": "סער",
+    "URLafterRedirect": "https://mapi.saar.gov.il/saar/component/main/?docAttrNames=gov_id&docAttrValues=2800-9999-2018-000634&docType=gov_document&unitlayer=lishka",
+    "TimeToReport": "20",
+    "Misc": "Mapi"
+  },
+  {
+    "Site": "https://moch.saar.gov.il/SaarLite/dist.html?roid=090026488001f540",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://moch.saar.gov.il/SaarLite/dist.html?roid=090026488001f540",
+    "TimeToReport": "20",
+    "Misc": "Moch"
+  },
+  {
+    "Site": "https://aprent.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=5150-0001-2017-000102",
+    "Title": "סער",
+    "URLafterRedirect": "https://aprent.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=5150-0001-2017-000102",
+    "TimeToReport": "20",
+    "Misc": "Shared2-aprent"
+  },
+  {
+    "Site": "https://aprent.saar.gov.il/SaarLite/dist.html?roid=090023f08001183d",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://aprent.saar.gov.il/SaarLite/dist.html?roid=090023f08001183d",
+    "TimeToReport": "20",
+    "Misc": "Shared2-aprent"
+  },
+  {
+    "Site": "https://president.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=5300-9999-2017-000147",
+    "Title": "סער",
+    "URLafterRedirect": "https://president.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=5300-9999-2017-000147",
+    "TimeToReport": "20",
+    "Misc": "Shared2-president"
+  },
+  {
+    "Site": "https://president.saar.gov.il/SaarLitePresident/dist.html?roid=0900238c80025a0d",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://president.saar.gov.il/SaarLitePresident/dist.html?roid=0900238c80025a0d",
+    "TimeToReport": "20",
+    "Misc": "Shared2-president"
+  },
+  {
+    "Site": "https://moin.saar.gov.il/saar24e/component/main/?docAttrNames=gov_id&docAttrValues=0600-7777-2018-005886&docType=gov_document&unitlayer=committees",
+    "Title": "סער",
+    "URLafterRedirect": "https://moin.saar.gov.il/saar24e/component/main/?docAttrNames=gov_id&docAttrValues=0600-7777-2018-005886&docType=gov_document&unitlayer=committees",
+    "TimeToReport": "20",
+    "Misc": "Moin"
+  },
+  {
+    "Site": "https://moin.saar.gov.il/SaarLite/dist.html?roid=09002454800600d4",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://moin.saar.gov.il/SaarLite/dist.html?roid=09002454800600d4",
+    "TimeToReport": "20",
+    "Misc": "Moin"
+  },
+  {
+    "Site": "https://eca.saar.gov.il/SaarLite/dist.html?roid=0900238c80038d06",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://eca.saar.gov.il/SaarLite/dist.html?roid=0900238c80038d06",
+    "TimeToReport": "20",
+    "Misc": "Shared3-eca"
+  },
+  {
+    "Site": "https://eca.saar.gov.il/saar24e/component/main/?docAttrNames=gov_id&docAttrValues=4750-8210-2018-002820&docType=gov_document&unitlayer=lishka",
+    "Title": "סער",
+    "URLafterRedirect": "https://eca.saar.gov.il/saar24e/component/main/?docAttrNames=gov_id&docAttrValues=4750-8210-2018-002820&docType=gov_document&unitlayer=lishka",
+    "TimeToReport": "20",
+    "Misc": "Shared3-eca"
+  },
+  {
+    "Site": "https://mchp.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=3200-9999-2017-000013",
+    "Title": "סער",
+    "URLafterRedirect": "https://mchp.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=3200-9999-2017-000013",
+    "TimeToReport": "20",
+    "Misc": "Shared3-mchp"
+  },
+  {
+    "Site": "https://mchp.saar.gov.il/SaarLiteMchp/dist.html?roid=090024548007f572",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://mchp.saar.gov.il/SaarLiteMchp/dist.html?roid=090024548007f572",
+    "TimeToReport": "20",
+    "Misc": "Shared3-mchp"
+  },
+  {
+    "Site": "https://antitrust.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=1310-0001-2017-000261",
+    "Title": "סער",
+    "URLafterRedirect": "https://antitrust.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=1310-0001-2017-000261",
+    "TimeToReport": "20",
+    "Misc": "AntuTrust"
+  },
+  {
+    "Site": "https://antitrust.saar.gov.il/SaarLite/dist.html?roid=09002454800f762f",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://antitrust.saar.gov.il/SaarLite/dist.html?roid=09002454800f762f",
+    "TimeToReport": "20",
+    "Misc": "AntuTrust"
+  },
+  {
+    "Site": "https://csc.saar.gov.il/saar/component/exsearch?unitlayer=lishka%26docType=gov_document%26docAttrNames=gov_id%26docAttrValues=0491-0401-2017-001569",
+    "Title": "סער",
+    "URLafterRedirect": "https://csc.saar.gov.il/saar/component/main/?unitlayer=lishka&docType=gov_document&docAttrNames=gov_id&docAttrValues=0491-0401-2017-001569",
+    "TimeToReport": "20",
+    "Misc": "CSC"
+  },
+  {
+    "Site": "https://csc.saar.gov.il/SaarLite/dist.html?roid=0901e6ad8003e5eb",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://csc.saar.gov.il/SaarLite/dist.html?roid=0901e6ad8003e5eb ",
+    "TimeToReport": "20",
+    "Misc": "CSC"
+  },
+  {
+    "Site": "https://moia.saar.gov.il/saar/component/exsearch?unitlayer=legal_app&docType=gov_document&docAttrNames=gov_id&docAttrValues=3000-1001-2018-0000161",
+    "Title": "סער",
+    "URLafterRedirect": "https://moia.saar.gov.il/saar/component/main/?docAttrNames=gov_id&docAttrValues=3000-1001-2018-0000161&docType=gov_document&unitlayer=legal_app",
+    "TimeToReport": "20",
+    "Misc": "Moia"
+  },
+  {
+    "Site": "https://moia.saar.gov.il/SaarLite/dist.html?roid=090024b880005938",
+    "Title": "סע\"ר לייט",
+    "URLafterRedirect": "https://moia.saar.gov.il/SaarLite/dist.html?roid=090024b880005938",
+    "TimeToReport": "20",
+    "Misc": "Moia"
+  },
+  {
+    "Site": "https://portalbi.gov.il",
+    "Title": "פורטל BI",
+    "URLafterRedirect": "https://portalbi.gov.il/",
+    "TimeToReport": "20",
+    "Misc": ""
+  },
+  {
+    "Site": "https://hishtalmuyot.justice.gov.il/General/InstituteRegistration.aspx",
+    "Title": "הרשמה למכון להשתלמויות",
+    "URLafterRedirect": "https://hishtalmuyotsc.justice.gov.il/general/instituteregistration.aspx",
+    "TimeToReport": "20",
+    "Misc": ""
+  },
+  {
+    "Site": "http://bechirot.gov.il",
+    "Title": "\n  \n    ועדת הבחירות לכנסת - דף הבית\n",
+    "URLafterRedirect": "http://bechirot.gov.il/election/Pages/HomePage.aspx",
+    "TimeToReport": "60",
+    "Misc": "כנסת 21"
+  },
+  {
+    "Site": "http://bituachnet.cma.gov.il/bituachTsuotUI/Tsuot/UI/bituachTsuotUI.aspx",
+    "Title": "ביטוח נט - מערכת להשוואת חברות ביטוח",
+    "URLafterRedirect": "https://bituachnet.cma.gov.il/bituachTsuotUI/Tsuot/UI/bituachTsuotUI.aspx",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "https://maslul-elk.tehila.gov.il",
+    "Title": "Kibana",
+    "URLafterRedirect": "https://maslul-elk.tehila.gov.il/app/kibana#/home?_g=()",
+    "TimeToReport": "15",
+    "Misc": ""
+  },
+  {
+    "Site": "http://my.gov.il ",
+    "Title": "אזור אישי",
+    "URLafterRedirect": "https://my.gov.il/landing/index.html",
+    "TimeToReport": "20",
+    "Misc": ""
+  },
+  {
+    "Site": "",
+    "Title": "",
+    "URLafterRedirect": "",
+    "TimeToReport": "",
+    "Misc": ""
+  }
+]
