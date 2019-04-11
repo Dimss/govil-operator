@@ -15,7 +15,7 @@ spec:
       serviceAccountName: govil-operator
       containers:
         - name: govil-operator
-          image: "docker.io/dimssss/govil-operator:0.24"
+          image: "docker.io/dimssss/govil-operator:0.25"
           env:
             - name: WATCH_NAMESPACE
               value: ""

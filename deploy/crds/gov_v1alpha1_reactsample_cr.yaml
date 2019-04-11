@@ -1,50 +1,42 @@
+#apiVersion: gov.il/v1alpha1
+#kind: ReactSample
+#metadata:
+#  generation: 1
+#  labels:
+#    profile: lab
+#    template: ReactSample
+#  name: govil-react-sample-v0-11
+#  namespace: govil
+#spec:
+#  size: "1"
+#  appName: govil-react-sample-v0-11
+#  containerPort: "8080"
+#  image: docker.io/dimssss/react-sample:v0.11
+#  namespace: govil
+#  profile: lab
+#  routePrefix: reactsample-lab
+#  routeSuffix: apps.openshift.sales.lab.tlv.redhat.com
+#  maxReactsampleInstances: 2
+#---
 apiVersion: gov.il/v1alpha1
 kind: ReactSample
 metadata:
+  generation: 1
   labels:
     profile: lab
-  name: govil-react-sample-v0-6
+    template: ReactSample
+  name: govil-react-sample-v0-12
   namespace: govil
 spec:
-  appName: govil-react-sample-v0-6
+  size: "1"
+  appName: govil-react-sample-v0-12
   containerPort: "8080"
-  image: docker.io/dimssss/react-sample:v0.6
+  image: docker.io/dimssss/react-sample:v0.12
   namespace: govil
   profile: lab
   routePrefix: reactsample-lab
   routeSuffix: apps.openshift.sales.lab.tlv.redhat.com
-  size: "1"
-  max_reactsample_instances: 2
----
-apiVersion: gov.il/v1alpha1
-kind: ReactSample
-metadata:
-  labels:
-    profile: lab
-  name: govil-react-sample-v0-8
-  namespace: govil
-spec:
-  appName: govil-react-sample-v0-8
-  containerPort: "8080"
-  image: docker.io/dimssss/react-sample:v0.8
-  namespace: govil
-  profile: lab
-  routePrefix: reactsample-lab
-  size: "1"
-  max_reactsample_instances: 2
----
-apiVersion: gov.il/v1alpha1
-kind: ReactSample
-metadata:
-  labels:
-    profile: dev
-  name: govil-react-sample-86cf4cd
-  namespace: govil
-spec:
-  appName: govil-react-sample-86cf4cd
-  containerPort: "8080"
-  image: docker.io/dimssss/react-sample:86cf4cd-26
-  namespace: govil
-  profile: dev
-  routePrefix: reactsample-dev
-  size: "1"
+  maxReactsampleInstances: 2
+
+
+
